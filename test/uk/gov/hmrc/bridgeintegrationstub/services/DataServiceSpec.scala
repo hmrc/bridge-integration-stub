@@ -1,0 +1,177 @@
+/*
+ * Copyright 2025 HM Revenue & Customs
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package uk.gov.hmrc.bridgeintegrationstub.services
+
+import org.mongodb.scala.bson.Document
+import play.api.test.Helpers.{await, defaultAwaitTimeout}
+import uk.gov.hmrc.bridgeintegrationstub.helpers.TestSupport
+import uk.gov.hmrc.bridgeintegrationstub.models.DataModel
+import uk.gov.hmrc.bridgeintegrationstub.repositories.DataRepository
+import uk.gov.hmrc.mongo.test.DefaultPlayMongoRepositorySupport
+
+class DataServiceSpec extends TestSupport with DefaultPlayMongoRepositorySupport[DataModel]{
+
+  override lazy val repository = new DataRepository(mongoComponent)
+  lazy val service = new DataService(mongoComponent)
+
+  "DataService" should {
+
+    "find documents using equal(key, value) branch" in {
+      val document = DataModel(
+        _id = "/some-other",
+        method = "GET",
+        status = 200,
+        response = None
+      )
+
+      await(service.addEntry(document))
+
+      await(service.repository.collection.createIndex(Document("method" -> 1)).toFuture())
+
+      val result = await(service.find(Seq("method" -> "GET")))
+
+      result should contain(document)
+    }
+
+    "find matching documents in the collection" in {
+      val result = {
+        await(service.addEntry(dataModel))
+        await(service.find(Seq("_id" -> "/test")))
+      }
+      result shouldBe List(dataModel)
+    }
+
+    "find matching documents in the collection when the URL has query params" in {
+      val result = {
+        await(service.addEntry(dataModel.copy(_id = "/test?param=*&param2=*")))
+        await(service.find(Seq("_id" -> "/test?param=value&param2=anotherValue")))
+      }
+      result shouldBe List(dataModel.copy(_id = "/test?param=*&param2=*"))
+    }
+
+    "find matching documents in the collection when the URL has path params" in {
+      val result = {
+        await(service.addEntry(dataModel.copy(_id = "/test/*")))
+        await(service.find(Seq("_id" -> "/test/112233")))
+      }
+      result shouldBe List(dataModel.copy(_id = "/test/*"))
+    }
+
+    "remove one document from the collection" in {
+      val result = {
+        await(service.addEntry(dataModel))
+        await(service.removeById("/test"))
+      }
+      result shouldBe successDeleteResult
+    }
+
+    "remove all documents from the collection" in {
+      val result = {
+        await(service.addEntry(dataModel))
+        await(service.removeAll())
+      }
+      result shouldBe successDeleteResult
+    }
+
+    "insert a given document" in {
+      val result = await(service.addEntry(dataModel))
+      result.wasAcknowledged() shouldBe true
+    }
+
+    "contain a DataRepository" in {
+      service.repository.getClass shouldBe repository.getClass
+    }
+
+    "find documents with no filters" in {
+      await(service.addEntry(dataModel))
+
+      val result = await(service.find(Seq.empty))
+      result should contain theSameElementsAs List(dataModel)
+    }
+
+    "find documents with a single filter" in {
+      await(service.addEntry(dataModel))
+      val result = await(service.find(Seq("_id" -> "/test")))
+      result shouldBe List(dataModel)
+    }
+
+    "find documents with multiple filters" in {
+      val multiDoc = DataModel(_id = "/multi", method = "GET", status = 200, response = None)
+      await(service.addEntry(dataModel))
+      await(service.addEntry(multiDoc))
+
+      val result = await(service.find(Seq("_id" -> "/test", "method" -> "GET")))
+      result shouldBe List(dataModel)
+    }
+
+    "find documents using wildcard fallback" in {
+      val wildcardDoc = DataModel(
+        _id = "/wildcard/*",
+        method = "GET",
+        status = 200,
+        response = None
+      )
+
+      await(service.addEntry(wildcardDoc))
+
+      val queryUri = "/wildcard/foo"
+      val result = await(service.find(Seq("_id" -> queryUri, "method" -> "GET")))
+
+      result shouldBe List(wildcardDoc)
+    }
+
+    "exact match takes precedence over wildcard" in {
+      val exactDoc = DataModel(
+        _id = "/exact/match",
+        method = "GET",
+        status = 200,
+        response = None
+      )
+      val wildcardDoc = DataModel(
+        _id = "/exact/*",
+        method = "GET",
+        status = 200,
+        response = None
+      )
+
+      await(service.addEntry(exactDoc))
+      await(service.addEntry(wildcardDoc))
+
+      val queryUri = "/exact/match"
+      val result = await(service.find(Seq("_id" -> queryUri, "method" -> "GET")))
+
+      result shouldBe List(exactDoc)
+    }
+
+    "no match returns empty" in {
+      val wildcardDoc = DataModel(
+        _id = "/some/*",
+        method = "GET",
+        status = 200,
+        response = None
+      )
+
+      await(service.addEntry(wildcardDoc))
+
+      val queryUri = "/unmatched/path"
+      val result = await(service.find(Seq("_id" -> queryUri, "method" -> "GET")))
+
+      result shouldBe empty
+    }
+
+  }
+}

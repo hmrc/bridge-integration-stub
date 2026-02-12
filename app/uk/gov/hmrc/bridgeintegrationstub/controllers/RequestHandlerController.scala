@@ -1,0 +1,62 @@
+/*
+ * Copyright 2025 HM Revenue & Customs
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package uk.gov.hmrc.bridgeintegrationstub.controllers
+
+import play.api.Logger
+import play.api.libs.json.{JsValue, Json}
+import play.api.mvc.{Action, AnyContent, ControllerComponents}
+import uk.gov.hmrc.bridgeintegrationstub.services.DataService
+import uk.gov.hmrc.play.bootstrap.backend.controller.BackendController
+
+import javax.inject.{Inject, Singleton}
+import scala.concurrent.ExecutionContext
+
+
+@Singleton
+class RequestHandlerController @Inject()(
+                                          dataService: DataService,
+                                          cc: ControllerComponents
+                                        )(implicit ec: ExecutionContext) extends BackendController(cc) {
+
+  def getRequestHandler(url: String): Action[AnyContent] = requestHandler("GET")
+  def postRequestHandler(url: String): Action[AnyContent] = requestHandler("POST")
+  def putRequestHandler(url: String): Action[AnyContent] = requestHandler("PUT")
+
+  private def requestHandler(method: String): Action[AnyContent] = Action.async { request =>
+    val logger = Logger(this.getClass)
+    logger.info(s"Received request URI: ${request.uri}")
+
+    val query = Seq(
+      "_id" -> request.uri,
+      "method" -> method
+    )
+
+    dataService.find(query).map { results =>
+      results.headOption match {
+        case Some(hit) =>
+          hit.response.map(Status(hit.status)(_)).getOrElse(Status(hit.status))
+        case None =>
+          NotFound(errorResponseBody)
+      }
+    }
+  }
+
+  private val errorResponseBody: JsValue = Json.obj(
+    "code" -> "NOT_FOUND",
+    "reason" -> "No data exists for this request."
+  )
+}
