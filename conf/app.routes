@@ -1,3 +1,10 @@
 # microservice specific routes
 
-GET        /hello-world             uk.gov.hmrc.bridgeintegrationstub.controllers.MicroserviceHelloWorldController.hello
+POST        /data                                                   uk.gov.hmrc.bridgeintegrationstub.controllers.SetupDataController.addData
+DELETE      /all-data                                               uk.gov.hmrc.bridgeintegrationstub.controllers.SetupDataController.removeAll
+
+GET         /*url                                                   uk.gov.hmrc.bridgeintegrationstub.controllers.RequestHandlerController.getRequestHandler(url)
+POST        /*url                                                   uk.gov.hmrc.bridgeintegrationstub.controllers.RequestHandlerController.postRequestHandler(url)
+PUT         /*url                                                   uk.gov.hmrc.bridgeintegrationstub.controllers.RequestHandlerController.putRequestHandler(url)
+
+
