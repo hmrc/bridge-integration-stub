@@ -11,7 +11,7 @@
       "name": "Register Ratepayer",
       "label": "Register LGFA88sch9p4I(a) Ratepayer",
       "description": "Job for creating and updating information about the personas who, for the time being, are or ought to be the ratepayer of a hereditament.",
-      "origination": "20251201T145628Z",
+      "origination": "20260218T104643Z",
       "termination": null,
       "category": {
         "code": "LTX-DOM-JOB",
@@ -30,16 +30,7 @@
         "foreign_names": [],
         "foreign_labels": []
       },
-      "protodata": [
-        {
-          "node": null,
-          "mime_type": "",
-          "label": "",
-          "is_pointer": null,
-          "pointer": "",
-          "data": ""
-        }
-      ],
+      "protodata": [],
       "metadata": {
         "sending": {
           "extracting": {
@@ -53,7 +44,12 @@
           "loading": {
             "readying": {},
             "assuring": {},
-            "signing": {},
+            "signing": {
+              "inputs": {
+                "hash": "pP/8NO5TABb51qDxiikkpngX8o9eyyVZ5PEAwPm3FZrUELl6l3hIB99WPh0c8R1NT6MjX85bXpucuoPbdzFNsg==",
+                "signature": null
+              }
+            },
             "encrypting": {},
             "sending": {}
           }
@@ -102,7 +98,7 @@
             "data": {
               "foreign_ids": [
                 {
-                  "system": "SystemX",
+                  "system": "Government_Gateway",
                   "location": "UK",
                   "value": "123456789123"
                 }
@@ -139,12 +135,11 @@
             },
             "protodata": [
               {
-                "node": null,
-                "mime_type": "",
-                "label": "",
-                "is_pointer": null,
-                "pointer": "",
-                "data": ""
+                "mime_type": "mime",
+                "label": "lbl",
+                "is_pointer": true,
+                "pointer": "pointer",
+                "data": "data"
               }
             ],
             "metadata": {
@@ -194,14 +189,14 @@
             "name": "Ratepayer and Agent Registration",
             "label": "Local Taxation Person-Persona Registration",
             "description": "A local taxtion domain process producing persisted records about LGFA88shd9para4J person-personas who are obliged to provide LGFA88shd9para4I(1) notofiable information.",
-            "origination": "20251201T145628Z",
+            "origination": null,
             "termination": null,
             "category": {
               "code": "LTX-DOM-PRS",
               "meaning": "Local taxation domain process"
             },
             "type": {
-              "code": "LRL",
+              "code": "LRP",
               "meaning": "Local rating list process"
             },
             "class": {
@@ -216,16 +211,7 @@
                 "webpage": null
               }
             },
-            "protodata": [
-              {
-                "node": null,
-                "mime_type": "",
-                "label": "",
-                "is_pointer": null,
-                "pointer": "",
-                "data": ""
-              }
-            ],
+            "protodata": [],
             "metadata": {
               "sending": {
                 "extracting": {
@@ -290,7 +276,7 @@
             "data": {
               "foreign_ids": [
                 {
-                  "system": "SystemX",
+                  "system": "Government_Gateway",
                   "location": "UK",
                   "value": "123456789123"
                 }
@@ -327,12 +313,11 @@
             },
             "protodata": [
               {
-                "node": null,
-                "mime_type": "",
-                "label": "",
-                "is_pointer": null,
-                "pointer": "",
-                "data": ""
+                "mime_type": "mime",
+                "label": "lbl",
+                "is_pointer": true,
+                "pointer": "pointer",
+                "data": "data"
               }
             ],
             "metadata": {
