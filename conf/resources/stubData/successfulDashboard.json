@@ -1,0 +1,10 @@
+{
+  "_id": "/bridge-integration-stub/ratepayers/123456789567/dashboard",
+  "method": "GET",
+  "status": 200,
+  "response": {
+    "activeRatepayerPersonExists" : true,
+    "activeRatepayerPersonaExists" : true,
+    "activePropertyLinkCount" : 5
+  }
+}
