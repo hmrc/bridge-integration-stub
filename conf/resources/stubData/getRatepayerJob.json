@@ -1,0 +1,501 @@
+{
+  "_id": "/bridge-integration-stub/job/ratepayers/123456789567",
+  "method": "GET",
+  "status": 200,
+  "response": {
+    "$schema": "./SCHEMA_V2.json",
+    "job": {
+      "id": null,
+      "idx": "1",
+      "name": "Register Ratepayer",
+      "label": "Register LGFA88sch9p4I(a) Ratepayer",
+      "description": "Job for creating and updating information about the personas who, for the time being, are or ought to be the ratepayer of a hereditament.",
+      "origination": "20260520T093802Z",
+      "termination": null,
+      "category": {
+        "code": "LTX-DOM-JOB",
+        "meaning": "Local taxation domain job"
+      },
+      "type": {
+        "code": "INF",
+        "meaning": "Assisting information"
+      },
+      "class": {
+        "code": "RPN",
+        "meaning": "Register ratepayer"
+      },
+      "data": {
+        "foreign_ids": [],
+        "foreign_names": [],
+        "foreign_labels": []
+      },
+      "protodata": [],
+      "metadata": {
+        "sending": {
+          "extracting": {
+            "selecting": {}
+          },
+          "transforming": {
+            "filtering": {},
+            "supplementing": {},
+            "recontextualising": {}
+          },
+          "loading": {
+            "readying": {},
+            "assuring": {},
+            "signing": {
+              "inputs": {
+                "hash": "qu4ieX9JI9lLmMDLHkM7vWbYd/ZbclXuEsOL9E1wfXU=",
+                "signature": null
+              }
+            },
+            "encrypting": {},
+            "sending": {}
+          }
+        },
+        "receiving": {
+          "unloading": {
+            "receiving": {},
+            "decrypting": {},
+            "verifying": {},
+            "assuring": {},
+            "readying": {}
+          },
+          "transforming": {
+            "recontextualising": {},
+            "dropping": {},
+            "restoring": {}
+          },
+          "storing": {
+            "inserting": {}
+          }
+        }
+      },
+      "compartments": {
+        "properties": [],
+        "persons": [
+          {
+            "id": 16,
+            "idx": "1.16.1",
+            "name": "Person 1",
+            "label": "Person Label 1",
+            "description": "A Government Gateway authenticated natural, corporate or crown user of online services provided by the UK Government/HMRC whose type and class are not yet known or re-confirmed.",
+            "origination": "20260407T111712Z",
+            "termination": null,
+            "category": {
+              "code": "LTX-DOM-PSN",
+              "meaning": "Local taxation domain person"
+            },
+            "type": {
+              "code": "COR",
+              "meaning": "Corporate"
+            },
+            "class": {
+              "code": "GGY",
+              "meaning": "Any government gateway user"
+            },
+            "data": {
+              "foreign_ids": [
+                {
+                  "system": "Government_Gateway",
+                  "location": "UK",
+                  "value": "123456789567"
+                }
+              ],
+              "foreign_names": [],
+              "foreign_labels": [],
+              "names": {
+                "title_common": null,
+                "title_uncommon": null,
+                "forenames": null,
+                "surname": null,
+                "post_nominals": null,
+                "corporate_name": null,
+                "crown_name": null,
+                "known_as": null
+              },
+              "communications": {
+                "postal_address": null,
+                "telephone_number": null,
+                "email": null
+              }
+            },
+            "protodata": [],
+            "metadata": {
+              "sending": {
+                "extracting": {
+                  "selecting": {}
+                },
+                "transforming": {
+                  "filtering": {},
+                  "supplementing": {},
+                  "recontextualising": {}
+                },
+                "loading": {
+                  "readying": {},
+                  "assuring": {},
+                  "signing": {},
+                  "encrypting": {},
+                  "sending": {}
+                }
+              },
+              "receiving": {
+                "unloading": {
+                  "receiving": {},
+                  "decrypting": {},
+                  "verifying": {},
+                  "assuring": {},
+                  "readying": {}
+                },
+                "transforming": {
+                  "recontextualising": {},
+                  "dropping": {},
+                  "restoring": {}
+                },
+                "storing": {
+                  "inserting": {}
+                }
+              }
+            },
+            "compartments": {},
+            "items": [
+              {
+                "id": 13,
+                "idx": "1.2.1.1",
+                "name": "Persona 1",
+                "label": "Persona Label 1",
+                "description": "A local taxation domain authenticated persona whose type and class are not yet known or re-confirmed, and that is assignable to the person.",
+                "origination": "20260407T111712Z",
+                "termination": null,
+                "category": {
+                  "code": "LTX-DOM-PSA",
+                  "meaning": "Local taxation domain persona"
+                },
+                "type": {
+                  "code": "TXP",
+                  "meaning": "LGFA taxpayer"
+                },
+                "class": {
+                  "code": "RPO",
+                  "meaning": "Ratepayer (occupier)"
+                },
+                "data": {
+                  "foreign_ids": [
+                    {
+                      "system": "Government_Gateway",
+                      "location": "UK",
+                      "value": "123456789567"
+                    }
+                  ],
+                  "foreign_names": [],
+                  "foreign_labels": [],
+                  "names": {
+                    "title_common": null,
+                    "title_uncommon": null,
+                    "forenames": null,
+                    "surname": null,
+                    "post_nominals": null,
+                    "corporate_name": null,
+                    "crown_name": null,
+                    "known_as": null
+                  },
+                  "communications": {
+                    "postal_address": null,
+                    "telephone_number": null,
+                    "email": null
+                  }
+                },
+                "protodata": [],
+                "metadata": {
+                  "sending": {
+                    "extracting": {
+                      "selecting": {}
+                    },
+                    "transforming": {
+                      "filtering": {},
+                      "supplementing": {},
+                      "recontextualising": {}
+                    },
+                    "loading": {
+                      "readying": {},
+                      "assuring": {},
+                      "signing": {},
+                      "encrypting": {},
+                      "sending": {}
+                    }
+                  },
+                  "receiving": {
+                    "unloading": {
+                      "receiving": {},
+                      "decrypting": {},
+                      "verifying": {},
+                      "assuring": {},
+                      "readying": {}
+                    },
+                    "transforming": {
+                      "recontextualising": {},
+                      "dropping": {},
+                      "restoring": {}
+                    },
+                    "storing": {
+                      "inserting": {}
+                    }
+                  }
+                },
+                "compartments": {},
+                "items": []
+              }
+            ]
+          }
+        ],
+        "processes": [
+          {
+            "id": null,
+            "idx": "1.3.1",
+            "name": "Ratepayer and Agent Registration",
+            "label": "Local Taxation Person-Persona Registration",
+            "description": "A local taxtion domain process producing persisted records about LGFA88shd9para4J person-personas who are obliged to provide LGFA88shd9para4I(1) notofiable information.",
+            "origination": null,
+            "termination": null,
+            "category": {
+              "code": "LTX-DOM-PRS",
+              "meaning": "Local taxation domain process"
+            },
+            "type": {
+              "code": "LRP",
+              "meaning": "Local rating list process"
+            },
+            "class": {
+              "code": "SLL",
+              "meaning": "Supply of assisting information to Local Valuation Officers"
+            },
+            "data": {
+              "foreign_ids": [],
+              "foreign_names": [],
+              "foreign_labels": [],
+              "documentation": {
+                "webpage": null
+              }
+            },
+            "protodata": [],
+            "metadata": {
+              "sending": {
+                "extracting": {
+                  "selecting": {}
+                },
+                "transforming": {
+                  "filtering": {},
+                  "supplementing": {},
+                  "recontextualising": {}
+                },
+                "loading": {
+                  "readying": {},
+                  "assuring": {},
+                  "signing": {},
+                  "encrypting": {},
+                  "sending": {}
+                }
+              },
+              "receiving": {
+                "unloading": {
+                  "receiving": {},
+                  "decrypting": {},
+                  "verifying": {},
+                  "assuring": {},
+                  "readying": {}
+                },
+                "transforming": {
+                  "recontextualising": {},
+                  "dropping": {},
+                  "restoring": {}
+                },
+                "storing": {
+                  "inserting": {}
+                }
+              }
+            },
+            "compartments": {},
+            "items": []
+          }
+        ],
+        "products": [
+          {
+            "id": 16,
+            "idx": "1.4.1",
+            "name": "Person 1",
+            "label": "Person Label 1",
+            "description": "A Government Gateway authenticated natural, corporate or crown user of online services provided by the UK Government/HMRC whose type and class are not yet known or re-confirmed.",
+            "origination": "20260407T111712Z",
+            "termination": null,
+            "category": {
+              "code": "LTX-DOM-PSN",
+              "meaning": "Local taxation domain person"
+            },
+            "type": {
+              "code": "COR",
+              "meaning": "Corporate"
+            },
+            "class": {
+              "code": "GGY",
+              "meaning": "Any government gateway user"
+            },
+            "data": {
+              "foreign_ids": [
+                {
+                  "system": "Government_Gateway",
+                  "location": "UK",
+                  "value": "123456789567"
+                }
+              ],
+              "foreign_names": [],
+              "foreign_labels": [],
+              "names": {
+                "title_common": null,
+                "title_uncommon": null,
+                "forenames": null,
+                "surname": null,
+                "post_nominals": null,
+                "corporate_name": null,
+                "crown_name": null,
+                "known_as": null
+              },
+              "communications": {
+                "postal_address": null,
+                "telephone_number": null,
+                "email": null
+              }
+            },
+            "protodata": [],
+            "metadata": {
+              "sending": {
+                "extracting": {
+                  "selecting": {}
+                },
+                "transforming": {
+                  "filtering": {},
+                  "supplementing": {},
+                  "recontextualising": {}
+                },
+                "loading": {
+                  "readying": {},
+                  "assuring": {},
+                  "signing": {},
+                  "encrypting": {},
+                  "sending": {}
+                }
+              },
+              "receiving": {
+                "unloading": {
+                  "receiving": {},
+                  "decrypting": {},
+                  "verifying": {},
+                  "assuring": {},
+                  "readying": {}
+                },
+                "transforming": {
+                  "recontextualising": {},
+                  "dropping": {},
+                  "restoring": {}
+                },
+                "storing": {
+                  "inserting": {}
+                }
+              }
+            },
+            "compartments": {},
+            "items": [
+              {
+                "id": 13,
+                "idx": "1.4.1.1",
+                "name": "Persona 1",
+                "label": "Persona Label 1",
+                "description": "A local taxation domain authenticated persona whose type and class are not yet known or re-confirmed, and that is assignable to the person.",
+                "origination": "20260407T111712Z",
+                "termination": null,
+                "category": {
+                  "code": "LTX-DOM-PSA",
+                  "meaning": "Local taxation domain persona"
+                },
+                "type": {
+                  "code": "TXP",
+                  "meaning": "LGFA taxpayer"
+                },
+                "class": {
+                  "code": "RPO",
+                  "meaning": "Ratepayer (occupier)"
+                },
+                "data": {
+                  "foreign_ids": [
+                    {
+                      "system": "Government_Gateway",
+                      "location": "UK",
+                      "value": "123456789567"
+                    }
+                  ],
+                  "foreign_names": [],
+                  "foreign_labels": [],
+                  "names": {
+                    "title_common": null,
+                    "title_uncommon": null,
+                    "forenames": null,
+                    "surname": null,
+                    "post_nominals": null,
+                    "corporate_name": null,
+                    "crown_name": null,
+                    "known_as": null
+                  },
+                  "communications": {
+                    "postal_address": null,
+                    "telephone_number": null,
+                    "email": null
+                  }
+                },
+                "protodata": [],
+                "metadata": {
+                  "sending": {
+                    "extracting": {
+                      "selecting": {}
+                    },
+                    "transforming": {
+                      "filtering": {},
+                      "supplementing": {},
+                      "recontextualising": {}
+                    },
+                    "loading": {
+                      "readying": {},
+                      "assuring": {},
+                      "signing": {},
+                      "encrypting": {},
+                      "sending": {}
+                    }
+                  },
+                  "receiving": {
+                    "unloading": {
+                      "receiving": {},
+                      "decrypting": {},
+                      "verifying": {},
+                      "assuring": {},
+                      "readying": {}
+                    },
+                    "transforming": {
+                      "recontextualising": {},
+                      "dropping": {},
+                      "restoring": {}
+                    },
+                    "storing": {
+                      "inserting": {}
+                    }
+                  }
+                },
+                "compartments": {},
+                "items": []
+              }
+            ]
+          }
+        ],
+        "relationships": []
+      },
+      "items": []
+    }
+  }
+}
