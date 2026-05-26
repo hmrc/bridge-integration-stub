@@ -1,5 +1,5 @@
 {
-  "_id": "/bridge-integration-stub/job/ratepayers/123456789567",
+  "_id": "/bridge-integration-stub/job/ratepayer-properties/123456789567",
   "method": "GET",
   "status": 200,
   "response": {
