@@ -1,0 +1,37 @@
+{
+  "_id": "/bridge-integration-stub/job/properties?personForeignId=123456789567&assessmentId=27399677000",
+  "method": "POST",
+  "status": 200,
+  "response": {
+    "job": {
+      "id": "27399677000",
+      "idx": "1",
+      "name": "Change to property for ",
+      "label": "Supply Notifiable Information",
+      "description": "Job for creating and updating information about property.",
+      "origination": "20260528T142107Z",
+      "termination": null,
+      "category": {
+        "code": "LTX-DOM-JOB",
+        "meaning": "Local taxation domain job"
+      },
+      "type": {
+        "code": "INF",
+        "meaning": "Assisting information"
+      },
+      "class": {
+        "code": "RPT",
+        "meaning": "Report notifiable information"
+      },
+      "data": {
+        "foreign_ids": [],
+        "foreign_names": [],
+        "foreign_labels": []
+      },
+      "protodata": [],
+      "metadata": {}
+    },
+    "compartments": {}
+  }
+}
+
