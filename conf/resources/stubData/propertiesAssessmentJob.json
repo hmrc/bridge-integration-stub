@@ -1,10 +1,10 @@
 {
-  "_id": "/bridge-integration-stub/job/properties?personForeignId=123456789567&assessmentId=999999",
+  "_id": "/bridge-integration-stub/job/properties?personForeignId=123456789567&assessmentId=27399677000",
   "method": "POST",
   "status": 200,
   "response": {
     "job": {
-      "id": "999999",
+      "id": "27399677000",
       "idx": "1",
       "name": "Change to property for ",
       "label": "Supply Notifiable Information",
@@ -34,3 +34,4 @@
     "compartments": {}
   }
 }
+
