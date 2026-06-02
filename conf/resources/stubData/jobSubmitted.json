@@ -1,5 +1,5 @@
 {
-  "_id": "/bridge-integration/property-assessment/123456789567/assessment/27399677000",
+  "_id": "/bridge-integration-stub/property-assessment/123456789567/assessment/27399677000",
   "method": "POST",
   "status": 200,
   "response": {
