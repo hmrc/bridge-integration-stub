@@ -1,0 +1,1872 @@
+{
+  "$schema": "./SCHEMA.json",
+  "job": {
+    "id": null,
+    "idx": "1",
+    "name": null,
+    "label": "Proposal To Alter A Local Taxation List",
+    "description": "Job for proposing alterations to local taxation lists. | This is an example of a Bridge API payload instance. The premise concerns a person that has recently become the taxpayer of a dwelling on Cambrian Street, Aberystwyth in Wales who, after receiving their council tax bill, is of the opinion that the valuation band shown for the dwelling is inapplicable. The person formally asserts that the valuation band should always have been C instead of D, and proposes that the list be altered accordingly; Whereupon a revised bill will be issued by the billing authority in whose list the dwelling is currently shown and any overpayments refunded. The information transported across the business systems perimeter by Bridge must ultimately enable the business’s internal systems to determine if the proposal has been validly made.",
+    "origination": "20260601T000000Z",
+    "termination": null,
+    "category": {
+      "code": "LTX-DOM-JOB",
+      "meaning": "Local taxation domain job"
+    },
+    "type": {
+      "code": "PPL",
+      "meaning": "A proposal to alter a local taxation list based on premises and a proposition (LGFA88+92=>AOLA-Regs(AsAmended)))"
+    },
+    "class": {
+      "code": "PVW",
+      "meaning": "Proposal to alter a council tax valuation list compiled for a billing authority in Wales (LGFA92s24(5)=>SI290-93Reg6)"
+    },
+    "data": {
+      "foreign_ids": [
+        {
+          "system": "HMRC-VO_CTX-WLS-PPL_PUB-INT",
+          "location": "hmrc/vo/wales/ct/proposals",
+          "value": "85ba5e43-23bf-432a-970d-9b901d637f32"
+        }
+      ],
+      "foreign_names": [],
+      "foreign_labels": [],
+      "premises": [
+        {
+          "unique_statutory_ref": "SI290-93_Reg5(1)(c)",
+          "text": "The list is inaccurate because the listing officer has determined as applicable to the dwelling a valuation band\nother than that which should have been determined as so applicable.",
+          "statements": [
+            {
+              "unique_statutory_ref": "SI290-93_Reg6(1)(d)(i)",
+              "text": "The reason for believing the valuation band is not applicable is that other dwellings in my street like mine are in a different band."
+            }
+          ],
+          "information": []
+        }
+      ],
+      "proposition": [
+        {
+          "unique_statutory_ref": "SI290-93_Reg6(1)(c)",
+          "alterations": [
+            "The valuation band should be amended to band C with effect from the 1st April 2005."
+          ]
+        }
+      ]
+    },
+    "protodata": [],
+    "metadata": {
+      "sending": {
+        "extracting": {
+          "selecting": {}
+        },
+        "transforming": {
+          "filtering": {},
+          "supplementing": {},
+          "recontextualising": {}
+        },
+        "loading": {
+          "readying": {},
+          "assuring": {},
+          "signing": {
+            "inputs": {
+              "hash": null,
+              "signature": null
+            }
+          },
+          "encrypting": {},
+          "sending": {}
+        }
+      },
+      "receiving": {
+        "unloading": {
+          "receiving": {},
+          "decrypting": {},
+          "verifying": {},
+          "assuring": {},
+          "readying": {}
+        },
+        "transforming": {
+          "recontextualising": {},
+          "dropping": {},
+          "restoring": {}
+        },
+        "storing": {
+          "inserting": {}
+        }
+      }
+    },
+    "compartments": {
+      "properties": [
+        {
+          "id": 32678234,
+          "idx": "1.1",
+          "name": null,
+          "label": "30 CAMBRIAN STREET, ABERYSTWYTH, SY23 1NZ",
+          "description": null,
+          "origination": "19920306T000000Z",
+          "termination": null,
+          "category": {
+            "code": "LTX-DOM-PRP",
+            "meaning": "Local taxation domain property (LGFA88+92)"
+          },
+          "type": {
+            "code": "OCC",
+            "meaning": "Constituted by reference to actual occupation (LGFA88+92=>GRA67s115(1)=>CommonLaw)"
+          },
+          "class": {
+            "code": "DWL",
+            "meaning": "Statutory CTX Dwelling (LGFA92s3)"
+          },
+          "data": {
+            "foreign_ids": [
+              {
+                "system": "HMRC-VO_VOS-CTX",
+                "location": "hmrc/vos/ctx/properties",
+                "value": "5d3bd996-d0df-4688-b8ad-36487dab6d27"
+              },
+              {
+                "system": "National_Address_Gazetteer",
+                "location": "https://services.geoplace.co.uk/",
+                "value": "100043765190"
+              }
+            ],
+            "foreign_names": [],
+            "foreign_labels": [],
+            "addresses": {
+              "property_full_address": "30 CAMBRIAN STREET, ABERYSTWYTH, SY23 1NZ",
+              "address_line_1": "30",
+              "address_postcode": "SY23 1NZ",
+              "known_as": null
+            },
+            "location": {
+              "ordnance_survey": null,
+              "google_maps": null
+            },
+            "workflow": {
+              "improvement_ind": "N"
+            },
+            "lists": [
+              {
+                "id": 1456,
+                "idx": "1",
+                "name": null,
+                "label": "CEREDIGION 2005 COUNCIL TAX VALUATION LIST (WALES)",
+                "description": null,
+                "origination": "20050401T000000Z",
+                "termination": null,
+                "category": {
+                  "code": "LTX-DOM-LST",
+                  "meaning": "Local taxation list"
+                },
+                "type": {
+                  "code": "LTL",
+                  "meaning": "A container of statutory units of property that are or may become liable to local taxation (LGFA88+92=>GRA67s115(1))"
+                },
+                "class": {
+                  "code": "CVW",
+                  "meaning": "Council tax valuation list for a billing authority in Wales (LGFA92s22B2(b)to3A)"
+                },
+                "data": {
+                  "foreign_ids": [
+                    {
+                      "system": "HMRC-VO_VOS-CTX",
+                      "location": "hmrc/vos/ctx/valuation_lists",
+                      "value": "35438729-ccc6-4977-915a-65424dc56f4a"
+                    }
+                  ],
+                  "foreign_names": [],
+                  "foreign_labels": [],
+                  "country": {
+                    "ons_code": "W92000004",
+                    "ons_code_label": "Wales | Cymru"
+                  },
+                  "collection_authority": {
+                    "ons_code": "W07000064",
+                    "ons_code_label": "Ceredigion | Ceredigion"
+                  },
+                  "inforcement_period": {
+                    "commencement_date": "20050401T000000Z",
+                    "expiration_date": null
+                  },
+                  "compilation_date": "20050401T000000Z",
+                  "valuation_date": "20030401T000000Z",
+                  "total_of_all_valuations": null
+                },
+                "protodata": [],
+                "metadata": {
+                  "sending": {
+                    "extracting": {
+                      "selecting": {}
+                    },
+                    "transforming": {
+                      "filtering": {},
+                      "supplementing": {},
+                      "recontextualising": {}
+                    },
+                    "loading": {
+                      "readying": {},
+                      "assuring": {},
+                      "signing": {
+                        "inputs": {
+                          "hash": null,
+                          "signature": null
+                        }
+                      },
+                      "encrypting": {},
+                      "sending": {}
+                    }
+                  },
+                  "receiving": {
+                    "unloading": {
+                      "receiving": {},
+                      "decrypting": {},
+                      "verifying": {},
+                      "assuring": {},
+                      "readying": {}
+                    },
+                    "transforming": {
+                      "recontextualising": {},
+                      "dropping": {},
+                      "restoring": {}
+                    },
+                    "storing": {
+                      "inserting": {}
+                    }
+                  }
+                },
+                "compartments": {},
+                "items": [
+                  {
+                    "id": 277659045,
+                    "idx": "1.1",
+                    "name": null,
+                    "label": "Council Tax Valuation List Entry",
+                    "description": null,
+                    "origination": "20050401T000000Z",
+                    "termination": null,
+                    "category": {
+                      "code": "LTX-DOM-LEN",
+                      "meaning": "Local Taxation List Entry"
+                    },
+                    "type": {
+                      "code": "CHG",
+                      "meaning": "A record representing a separate unit of property which is or may become liable to local taxation that includes the information needed to calculate a liabilty, support comparisons and faciltate other related funtions (GRA67s115(1))"
+                    },
+                    "class": {
+                      "code": "VLE",
+                      "meaning": "Council tax valuation list entry (LGFA92s23(1)) "
+                    },
+                    "data": {
+                      "foreign_ids": [
+                        {
+                          "system": "HMRC-VO_VOS-CTX",
+                          "location": "hmrc/vos/ctx/valuation_list_entries",
+                          "value": "1789fb59-00c2-496c-9513-d099df31f105"
+                        },
+                        {
+                          "system": "LG_SYS",
+                          "location": "{ca}/finance/billing/property",
+                          "value": "081010000029003003"
+                        }
+                      ],
+                      "foreign_names": [],
+                      "foreign_labels": [],
+                      "designated_person": {
+                        "name": null,
+                        "address": null,
+                        "company_number": null
+                      },
+                      "relevant_property": {
+                        "property_id": 32678234,
+                        "vos_property_id": "5d3bd996-d0df-4688-b8ad-36487dab6d27"
+                      },
+                      "use": {
+                        "description": null,
+                        "composite_ind": "N",
+                        "part_exempt_ind": null
+                      },
+                      "valuation": {
+                        "value": "D",
+                        "method": {
+                          "code": null,
+                          "label": null
+                        },
+                        "previous": null,
+                        "valuations": [
+                          {
+                            "id": 0,
+                            "idx": "1",
+                            "name": null,
+                            "label": "Notional/Undisclosed Dwelling Valuation",
+                            "description": null,
+                            "origination": "20041102T000000Z",
+                            "termination": null,
+                            "category": {
+                              "code": "LTX-DOM-VAL",
+                              "meaning": "Local Taxation Valuation"
+                            },
+                            "type": {
+                              "code": "VAL",
+                              "meaning": "To be determined"
+                            },
+                            "class": {
+                              "code": "BDG",
+                              "meaning": "To be determined"
+                            },
+                            "data": {
+                              "foreign_ids": [],
+                              "foreign_names": [],
+                              "foreign_labels": [],
+                              "valuation_surveys": [
+                                {
+                                  "id": 27635475,
+                                  "idx": "1.1",
+                                  "name": null,
+                                  "label": "VALUATION_SURVEY (Council tax property attribute details (PADS))",
+                                  "description": null,
+                                  "origination": "19760403T000000Z",
+                                  "termination": null,
+                                  "category": {
+                                    "code": "LTX-DOM-VAS",
+                                    "meaning": "Local taxation domain valuation survey"
+                                  },
+                                  "type": {
+                                    "code": "SPL",
+                                    "meaning": "To be determined"
+                                  },
+                                  "class": {
+                                    "code": "RCA",
+                                    "meaning": "To be determined"
+                                  },
+                                  "data": {
+                                    "foreign_ids": [
+                                      {
+                                        "system": "HMRC-VO_VOS-CTX",
+                                        "location": "hmrc/vos/ctx/pads",
+                                        "value": "0c5628fe-fd5e-4201-a40c-3c4422ca752b"
+                                      }
+                                    ],
+                                    "foreign_names": [],
+                                    "foreign_labels": [],
+                                    "survey": {
+                                      "id": 282736455,
+                                      "idx": "1",
+                                      "name": null,
+                                      "label": "Site",
+                                      "description": null,
+                                      "origination": null,
+                                      "termination": null,
+                                      "category": {
+                                        "code": "LTX-DOM-CON",
+                                        "meaning": "Temporal spatial unit formed by reference to statutory and common law principles of rateable occupation."
+                                      },
+                                      "type": {
+                                        "code": "HOR",
+                                        "meaning": "A two dimensional horizontal unit of space"
+                                      },
+                                      "class": {
+                                        "code": "SIT",
+                                        "meaning": "Site"
+                                      },
+                                      "data": {
+                                        "foreign_ids": [],
+                                        "foreign_names": [],
+                                        "foreign_labels": [],
+                                        "design": {
+                                          "group": {
+                                            "code": "03",
+                                            "label": "Small basic dwellings, built before 1919"
+                                          },
+                                          "type": {
+                                            "code": "HT",
+                                            "label": "Mid-terrace house"
+                                          }
+                                        },
+                                        "construction": {
+                                          "age": {
+                                            "code": "A",
+                                            "label": "Pre-1900"
+                                          },
+                                          "modernised": "N",
+                                          "lowest_floor_level": "0:00",
+                                          "number_of_floor_levels": 2,
+                                          "area": 83.5
+                                        },
+                                        "accomodation": {
+                                          "total_number_of_rooms": 5,
+                                          "number_of_bedrooms": 3,
+                                          "number_of_bathrooms": 2,
+                                          "conservatory": {
+                                            "type": {
+                                              "code": "N",
+                                              "label": "No Conservatory Exists"
+                                            },
+                                            "area": null
+                                          }
+                                        },
+                                        "facilities": {
+                                          "central_heating": {
+                                            "code": "N",
+                                            "label": "None"
+                                          }
+                                        },
+                                        "features": {
+                                          "value_significant": [
+                                            {
+                                              "code": "HO",
+                                              "label": "Penthouse"
+                                            }
+                                          ]
+                                        },
+                                        "outside": {
+                                          "outbuildings": {
+                                            "code": "X",
+                                            "label": "Existence of outbuildings not known"
+                                          },
+                                          "parking": {
+                                            "code": "SP",
+                                            "label": "Street or Communal parking only"
+                                          },
+                                          "plot_size": null
+                                        }
+                                      },
+                                      "protodata": [],
+                                      "metadata": {
+                                        "sending": {
+                                          "extracting": {
+                                            "selecting": {}
+                                          },
+                                          "transforming": {
+                                            "filtering": {},
+                                            "supplementing": {},
+                                            "recontextualising": {}
+                                          },
+                                          "loading": {
+                                            "readying": {},
+                                            "assuring": {},
+                                            "signing": {
+                                              "inputs": {
+                                                "hash": null,
+                                                "signature": null
+                                              }
+                                            },
+                                            "encrypting": {},
+                                            "sending": {}
+                                          }
+                                        },
+                                        "receiving": {
+                                          "unloading": {
+                                            "receiving": {},
+                                            "decrypting": {},
+                                            "verifying": {},
+                                            "assuring": {},
+                                            "readying": {}
+                                          },
+                                          "transforming": {
+                                            "recontextualising": {},
+                                            "dropping": {},
+                                            "restoring": {}
+                                          },
+                                          "storing": {
+                                            "inserting": {}
+                                          }
+                                        }
+                                      },
+                                      "compartments": {},
+                                      "items": []
+                                    }
+                                  },
+                                  "protodata": [],
+                                  "metadata": {
+                                    "sending": {
+                                      "extracting": {
+                                        "selecting": {}
+                                      },
+                                      "transforming": {
+                                        "filtering": {},
+                                        "supplementing": {},
+                                        "recontextualising": {}
+                                      },
+                                      "loading": {
+                                        "readying": {},
+                                        "assuring": {},
+                                        "signing": {
+                                          "inputs": {
+                                            "hash": null,
+                                            "signature": null
+                                          }
+                                        },
+                                        "encrypting": {},
+                                        "sending": {}
+                                      }
+                                    },
+                                    "receiving": {
+                                      "unloading": {
+                                        "receiving": {},
+                                        "decrypting": {},
+                                        "verifying": {},
+                                        "assuring": {},
+                                        "readying": {}
+                                      },
+                                      "transforming": {
+                                        "recontextualising": {},
+                                        "dropping": {},
+                                        "restoring": {}
+                                      },
+                                      "storing": {
+                                        "inserting": {}
+                                      }
+                                    }
+                                  },
+                                  "compartments": {},
+                                  "items": []
+                                }
+                              ]
+                            },
+                            "protodata": [],
+                            "metadata": {
+                              "sending": {
+                                "extracting": {
+                                  "selecting": {}
+                                },
+                                "transforming": {
+                                  "filtering": {},
+                                  "supplementing": {},
+                                  "recontextualising": {}
+                                },
+                                "loading": {
+                                  "readying": {},
+                                  "assuring": {},
+                                  "signing": {
+                                    "inputs": {
+                                      "hash": null,
+                                      "signature": null
+                                    }
+                                  },
+                                  "encrypting": {},
+                                  "sending": {}
+                                }
+                              },
+                              "receiving": {
+                                "unloading": {
+                                  "receiving": {},
+                                  "decrypting": {},
+                                  "verifying": {},
+                                  "assuring": {},
+                                  "readying": {}
+                                },
+                                "transforming": {
+                                  "recontextualising": {},
+                                  "dropping": {},
+                                  "restoring": {}
+                                },
+                                "storing": {
+                                  "inserting": {}
+                                }
+                              }
+                            },
+                            "compartments": {},
+                            "items": []
+                          }
+                        ]
+                      },
+                      "period": {
+                        "effective_from_date": "20050401T000000Z",
+                        "effective_to_date": null
+                      },
+                      "administration": {
+                        "alteration_date": null,
+                        "alteration_seq_no": null,
+                        "entry_seq_no": null,
+                        "judicially_ordered_by": null,
+                        "transitionally_certified": null
+                      },
+                      "workflow": {
+                        "creating_job_id": "df516899-30c2-41c3-aafe-3ffe222cc987"
+                      }
+                    },
+                    "protodata": [],
+                    "metadata": {
+                      "sending": {
+                        "extracting": {
+                          "selecting": {}
+                        },
+                        "transforming": {
+                          "filtering": {},
+                          "supplementing": {},
+                          "recontextualising": {}
+                        },
+                        "loading": {
+                          "readying": {},
+                          "assuring": {},
+                          "signing": {
+                            "inputs": {
+                              "hash": null,
+                              "signature": null
+                            }
+                          },
+                          "encrypting": {},
+                          "sending": {}
+                        }
+                      },
+                      "receiving": {
+                        "unloading": {
+                          "receiving": {},
+                          "decrypting": {},
+                          "verifying": {},
+                          "assuring": {},
+                          "readying": {}
+                        },
+                        "transforming": {
+                          "recontextualising": {},
+                          "dropping": {},
+                          "restoring": {}
+                        },
+                        "storing": {
+                          "inserting": {}
+                        }
+                      }
+                    },
+                    "compartments": {},
+                    "items": []
+                  }
+                ]
+              }
+            ]
+          },
+          "protodata": [],
+          "metadata": {
+            "sending": {
+              "extracting": {
+                "selecting": {}
+              },
+              "transforming": {
+                "filtering": {},
+                "supplementing": {},
+                "recontextualising": {}
+              },
+              "loading": {
+                "readying": {},
+                "assuring": {},
+                "signing": {
+                  "inputs": {
+                    "hash": null,
+                    "signature": null
+                  }
+                },
+                "encrypting": {},
+                "sending": {}
+              }
+            },
+            "receiving": {
+              "unloading": {
+                "receiving": {},
+                "decrypting": {},
+                "verifying": {},
+                "assuring": {},
+                "readying": {}
+              },
+              "transforming": {
+                "recontextualising": {},
+                "dropping": {},
+                "restoring": {}
+              },
+              "storing": {
+                "inserting": {}
+              }
+            }
+          },
+          "compartments": {},
+          "items": []
+        }
+      ],
+      "persons": [
+        {
+          "id": null,
+          "idx": "1.2",
+          "name": null,
+          "label": "Anonymous perimeter system user",
+          "description": null,
+          "origination": null,
+          "termination": null,
+          "category": {
+            "code": "LTX-DOM-PSN",
+            "meaning": "Local taxation domain person"
+          },
+          "type": {
+            "code": "ZZZ",
+            "meaning": "Anonymous perimeter system user type"
+          },
+          "class": {
+            "code": "ZZZ",
+            "meaning": "Anonymous perimeter system user class"
+          },
+          "data": {
+            "foreign_ids": [],
+            "foreign_names": [],
+            "foreign_labels": [],
+            "names": {
+              "title_common": null,
+              "title_uncommon": null,
+              "forenames": null,
+              "surname": null,
+              "post_nominals": null,
+              "corporate_name": null,
+              "crown_name": null,
+              "known_as": null
+            },
+            "communications": {
+              "postal_address": null,
+              "telephone_number": null,
+              "email": null
+            }
+          },
+          "protodata": [],
+          "metadata": {
+            "sending": {
+              "extracting": {
+                "selecting": {}
+              },
+              "transforming": {
+                "filtering": {},
+                "supplementing": {},
+                "recontextualising": {}
+              },
+              "loading": {
+                "readying": {},
+                "assuring": {},
+                "signing": {},
+                "encrypting": {},
+                "sending": {}
+              }
+            },
+            "receiving": {
+              "unloading": {
+                "receiving": {},
+                "decrypting": {},
+                "verifying": {},
+                "assuring": {},
+                "readying": {}
+              },
+              "transforming": {
+                "recontextualising": {},
+                "dropping": {},
+                "restoring": {}
+              },
+              "storing": {
+                "inserting": {}
+              }
+            }
+          },
+          "compartments": {},
+          "items": [
+            {
+              "id": null,
+              "idx": "1.2.1",
+              "name": null,
+              "label": null,
+              "description": null,
+              "origination": null,
+              "termination": null,
+              "category": {
+                "code": "LTX-DOM-PSA",
+                "meaning": "Local taxation domain persona"
+              },
+              "type": {
+                "code": "PRO",
+                "meaning": "A person making a proposal to alter a local taxation list (LGFA88+92=>AOLA-Regs(AsAmended)"
+              },
+              "class": {
+                "code": null,
+                "meaning": null
+              },
+              "data": {
+                "foreign_ids": [],
+                "foreign_names": [],
+                "foreign_labels": [],
+                "names": {
+                  "title_common": null,
+                  "title_uncommon": null,
+                  "forenames": null,
+                  "surname": null,
+                  "post_nominals": null,
+                  "corporate_name": null,
+                  "crown_name": null,
+                  "known_as": null
+                },
+                "communications": {
+                  "postal_address": null,
+                  "telephone_number": null,
+                  "email": null
+                },
+                "capacity": {
+                  "code": null,
+                  "meaning": null
+                }
+              },
+              "protodata": [],
+              "metadata": {
+                "sending": {
+                  "extracting": {
+                    "selecting": {}
+                  },
+                  "transforming": {
+                    "filtering": {},
+                    "supplementing": {},
+                    "recontextualising": {}
+                  },
+                  "loading": {
+                    "readying": {},
+                    "assuring": {},
+                    "signing": {},
+                    "encrypting": {},
+                    "sending": {}
+                  }
+                },
+                "receiving": {
+                  "unloading": {
+                    "receiving": {},
+                    "decrypting": {},
+                    "verifying": {},
+                    "assuring": {},
+                    "readying": {}
+                  },
+                  "transforming": {
+                    "recontextualising": {},
+                    "dropping": {},
+                    "restoring": {}
+                  },
+                  "storing": {
+                    "inserting": {}
+                  }
+                }
+              },
+              "compartments": {},
+              "items": []
+            }
+          ]
+        }
+      ],
+      "processes": [
+        {
+          "id": null,
+          "idx": "1.3.1",
+          "name": null,
+          "label": "Council Tax Valuation List Proposals Wales",
+          "description": "A local taxtion domain process producing persistent resolutions of proposals to alter council tax valuation lists for billing authorities in Wales in accordance with LGFA92s24(5)=>SI290-93_AsAmended.",
+          "origination": null,
+          "termination": null,
+          "category": {
+            "code": "LTX-DOM-PRS",
+            "meaning": "Local taxation domain process (Local Government Finance Acts + IA78s12(1))"
+          },
+          "type": {
+            "code": "LCP",
+            "meaning": "Local rating list process (LGFA92ptXXX Listing Officer functions)"
+          },
+          "class": {
+            "code": "PRW",
+            "meaning": "Submission of lawfully founded premises and propositions for the alteration of council tax valuation lists for billing authorities in Wales (LGFA92....)"
+          },
+          "data": {
+            "foreign_ids": [],
+            "foreign_names": [],
+            "foreign_labels": [],
+            "documentation": {
+              "webpage": null
+            }
+          },
+          "protodata": [],
+          "metadata": {
+            "sending": {
+              "extracting": {
+                "selecting": {}
+              },
+              "transforming": {
+                "filtering": {},
+                "supplementing": {},
+                "recontextualising": {}
+              },
+              "loading": {
+                "readying": {},
+                "assuring": {},
+                "signing": {},
+                "encrypting": {},
+                "sending": {}
+              }
+            },
+            "receiving": {
+              "unloading": {
+                "receiving": {},
+                "decrypting": {},
+                "verifying": {},
+                "assuring": {},
+                "readying": {}
+              },
+              "transforming": {
+                "recontextualising": {},
+                "dropping": {},
+                "restoring": {}
+              },
+              "storing": {
+                "inserting": {}
+              }
+            }
+          },
+          "compartments": {},
+          "items": []
+        }
+      ],
+      "products": [
+        {
+          "id": null,
+          "idx": "1.4.1",
+          "name": null,
+          "label": "Anonymous perimeter system user",
+          "description": null,
+          "origination": null,
+          "termination": null,
+          "category": {
+            "code": "LTX-DOM-PSN",
+            "meaning": "Local taxation domain person"
+          },
+          "type": {
+            "code": "ZZZ",
+            "meaning": "Anonymous perimeter system user type"
+          },
+          "class": {
+            "code": "ZZZ",
+            "meaning": "Anonymous perimeter system user class"
+          },
+          "data": {
+            "foreign_ids": [],
+            "foreign_names": [],
+            "foreign_labels": [],
+            "names": {
+              "title_common": null,
+              "title_uncommon": null,
+              "forenames": "Alan",
+              "surname": "O'Neill",
+              "post_nominals": "BSc(Hons) Land Management",
+              "corporate_name": null,
+              "crown_name": null,
+              "known_as": null
+            },
+            "communications": {
+              "postal_address": "9 Anderton Close, Tavistock, Devon, Pl19 9RA",
+              "telephone_number": "01822 615234",
+              "email": "alanroneill@email.com"
+            }
+          },
+          "protodata": [],
+          "metadata": {
+            "sending": {
+              "extracting": {
+                "selecting": {}
+              },
+              "transforming": {
+                "filtering": {},
+                "supplementing": {},
+                "recontextualising": {}
+              },
+              "loading": {
+                "readying": {},
+                "assuring": {},
+                "signing": {},
+                "encrypting": {},
+                "sending": {}
+              }
+            },
+            "receiving": {
+              "unloading": {
+                "receiving": {},
+                "decrypting": {},
+                "verifying": {},
+                "assuring": {},
+                "readying": {}
+              },
+              "transforming": {
+                "recontextualising": {},
+                "dropping": {},
+                "restoring": {}
+              },
+              "storing": {
+                "inserting": {}
+              }
+            }
+          },
+          "compartments": {},
+          "items": [
+            {
+              "id": null,
+              "idx": "1.1",
+              "name": null,
+              "label": null,
+              "description": null,
+              "origination": "20260601T000000Z",
+              "termination": null,
+              "category": {
+                "code": "LTX-DOM-PSA",
+                "meaning": "Local taxation domain persona"
+              },
+              "type": {
+                "code": "PRO",
+                "meaning": "A person making a proposal to alter a local taxation list (LGFA88+92=>AOLA-Regs(AsAmended)"
+              },
+              "class": {
+                "code": "VWP",
+                "meaning": "Proposer of alterations to council tax valuation list compiled for a billing authority in Wales (LGFA92s24(5)=>SI290-93Reg2(1))"
+              },
+              "data": {
+                "foreign_ids": [],
+                "foreign_names": [],
+                "foreign_labels": [],
+                "names": {
+                  "title_common": "Mr",
+                  "title_uncommon": null,
+                  "forenames": "Alan",
+                  "surname": "O'Neill",
+                  "post_nominals": null,
+                  "corporate_name": null,
+                  "crown_name": null,
+                  "known_as": null
+                },
+                "communications": {
+                  "postal_address": "9 Anderton Close, Tavistock, Devon, Pl19 9RA",
+                  "telephone_number": "07900 897423",
+                  "email": "alanroneill@email.com"
+                },
+                "capacity": {
+                  "code": "CPY",
+                  "meaning": "The Council Tax-Payer (LGFA92s6)"
+                }
+              },
+              "protodata": [],
+              "metadata": {
+                "sending": {
+                  "extracting": {
+                    "selecting": {}
+                  },
+                  "transforming": {
+                    "filtering": {},
+                    "supplementing": {},
+                    "recontextualising": {}
+                  },
+                  "loading": {
+                    "readying": {},
+                    "assuring": {},
+                    "signing": {},
+                    "encrypting": {},
+                    "sending": {}
+                  }
+                },
+                "receiving": {
+                  "unloading": {
+                    "receiving": {},
+                    "decrypting": {},
+                    "verifying": {},
+                    "assuring": {},
+                    "readying": {}
+                  },
+                  "transforming": {
+                    "recontextualising": {},
+                    "dropping": {},
+                    "restoring": {}
+                  },
+                  "storing": {
+                    "inserting": {}
+                  }
+                }
+              },
+              "compartments": {},
+              "items": []
+            }
+          ]
+        },
+        {
+          "id": 32678234,
+          "idx": "1.4.2",
+          "name": null,
+          "label": "30 CAMBRIAN STREET, ABERYSTWYTH, SY23 1NZ",
+          "description": null,
+          "origination": "19920306T000000Z",
+          "termination": null,
+          "category": {
+            "code": "LTX-DOM-PRP",
+            "meaning": "Local taxation domain property (LGFA88+92)"
+          },
+          "type": {
+            "code": "OCC",
+            "meaning": "Constituted by reference to actual occupation (LGFA88+92=>GRA67s115(1)=>CommonLaw)"
+          },
+          "class": {
+            "code": "DWL",
+            "meaning": "Statutory CTX Dwelling (LGFA92s3)"
+          },
+          "data": {
+            "foreign_ids": [
+              {
+                "system": "HMRC-VO_VOS-CTX",
+                "location": "hmrc/vos/ctx/properties",
+                "value": "5d3bd996-d0df-4688-b8ad-36487dab6d27"
+              },
+              {
+                "system": "National_Address_Gazetteer",
+                "location": "https://services.geoplace.co.uk/",
+                "value": "100043765190"
+              }
+            ],
+            "foreign_names": [],
+            "foreign_labels": [],
+            "addresses": {
+              "property_full_address": "30 CAMBRIAN STREET, ABERYSTWYTH, SY23 1NZ",
+              "address_line_1": "30",
+              "address_postcode": "SY23 1NZ",
+              "known_as": null
+            },
+            "location": {
+              "ordnance_survey": null,
+              "google_maps": null
+            },
+            "workflow": {
+              "improvement_ind": "N"
+            },
+            "lists": [
+              {
+                "id": 1456,
+                "idx": "1",
+                "name": null,
+                "label": "CEREDIGION 2005 COUNCIL TAX VALUATION LIST (WALES)",
+                "description": null,
+                "origination": "20050401T000000Z",
+                "termination": null,
+                "category": {
+                  "code": "LTX-DOM-LST",
+                  "meaning": "Local taxation list"
+                },
+                "type": {
+                  "code": "LTL",
+                  "meaning": "A container of statutory units of property that are or may become liable to local taxation (GRA67s115(1))"
+                },
+                "class": {
+                  "code": "VLW",
+                  "meaning": "Lists compiled in relation to billing authorities in Wales, on 1 April 2005; On 1 April in each year specified by the Welsh Ministers up to 2027; Or on 1 April 2028 and every fifth year afterwards (LGFA92s22B(2(b) to 3B))"
+                },
+                "data": {
+                  "foreign_ids": [
+                    {
+                      "system": "HMRC-VO_VOS-CTX",
+                      "location": "hmrc/vos/ctx/valuation_lists",
+                      "value": "35438729-ccc6-4977-915a-65424dc56f4a"
+                    }
+                  ],
+                  "foreign_names": [],
+                  "foreign_labels": [],
+                  "country": {
+                    "ons_code": "W92000004",
+                    "ons_code_label": "Wales | Cymru"
+                  },
+                  "collection_authority": {
+                    "ons_code": "W07000064",
+                    "ons_code_label": "Ceredigion | Ceredigion"
+                  },
+                  "inforcement_period": {
+                    "commencement_date": "20050401T000000Z",
+                    "expiration_date": null
+                  },
+                  "compilation_date": "20050401T000000Z",
+                  "valuation_date": "20030401T000000Z",
+                  "total_of_all_valuations": null
+                },
+                "protodata": [],
+                "metadata": {
+                  "sending": {
+                    "extracting": {
+                      "selecting": {}
+                    },
+                    "transforming": {
+                      "filtering": {},
+                      "supplementing": {},
+                      "recontextualising": {}
+                    },
+                    "loading": {
+                      "readying": {},
+                      "assuring": {},
+                      "signing": {
+                        "inputs": {
+                          "hash": null,
+                          "signature": null
+                        }
+                      },
+                      "encrypting": {},
+                      "sending": {}
+                    }
+                  },
+                  "receiving": {
+                    "unloading": {
+                      "receiving": {},
+                      "decrypting": {},
+                      "verifying": {},
+                      "assuring": {},
+                      "readying": {}
+                    },
+                    "transforming": {
+                      "recontextualising": {},
+                      "dropping": {},
+                      "restoring": {}
+                    },
+                    "storing": {
+                      "inserting": {}
+                    }
+                  }
+                },
+                "compartments": {},
+                "items": [
+                  {
+                    "id": 277659045,
+                    "idx": "1.1",
+                    "name": null,
+                    "label": "Council Tax Valuation List Entry",
+                    "description": null,
+                    "origination": "20050401T000000Z",
+                    "termination": null,
+                    "category": {
+                      "code": "LTX-DOM-LEN",
+                      "meaning": "Local Taxation List Entry"
+                    },
+                    "type": {
+                      "code": "CHG",
+                      "meaning": "A record representing a separate unit of property which is or may become liable to local taxation that includes the information needed to calculate a liabilty, support comparisons and faciltate other related funtions (GRA67s115(1))"
+                    },
+                    "class": {
+                      "code": "VLE",
+                      "meaning": "Council tax valuation list entry (LGFA92s23(1)) "
+                    },
+                    "data": {
+                      "foreign_ids": [
+                        {
+                          "system": "HMRC-VO_VOS-CTX",
+                          "location": "hmrc/vos/ctx/valuation_list_entries",
+                          "value": "1789fb59-00c2-496c-9513-d099df31f105"
+                        },
+                        {
+                          "system": "LG_SYS",
+                          "location": "{ca}/finance/billing/property",
+                          "value": "081010000029003003"
+                        }
+                      ],
+                      "foreign_names": [],
+                      "foreign_labels": [],
+                      "designated_person": {
+                        "name": null,
+                        "address": null,
+                        "company_number": null
+                      },
+                      "relevant_property": {
+                        "property_id": 32678234,
+                        "vos_property_id": "5d3bd996-d0df-4688-b8ad-36487dab6d27"
+                      },
+                      "use": {
+                        "description": null,
+                        "composite_ind": "N",
+                        "part_exempt_ind": null
+                      },
+                      "valuation": {
+                        "value": "D",
+                        "method": {
+                          "code": null,
+                          "label": null
+                        },
+                        "previous": null,
+                        "valuations": [
+                          {
+                            "id": 0,
+                            "idx": "1",
+                            "name": null,
+                            "label": "Notional/Undisclosed Dwelling Valuation",
+                            "description": null,
+                            "origination": "20041102T000000Z",
+                            "termination": null,
+                            "category": {
+                              "code": "LTX-DOM-VAL",
+                              "meaning": "Local Taxation Valuation"
+                            },
+                            "type": {
+                              "code": "VAL",
+                              "meaning": "To be determined"
+                            },
+                            "class": {
+                              "code": "BDG",
+                              "meaning": "To be determined"
+                            },
+                            "data": {
+                              "foreign_ids": [],
+                              "foreign_names": [],
+                              "foreign_labels": [],
+                              "valuation_surveys": [
+                                {
+                                  "id": 27635475,
+                                  "idx": "1.1",
+                                  "name": null,
+                                  "label": "VALUATION_SURVEY (Council tax property attribute details (PADS))",
+                                  "description": null,
+                                  "origination": "19760403T000000Z",
+                                  "termination": null,
+                                  "category": {
+                                    "code": "LTX-DOM-VAS",
+                                    "meaning": "Local taxation domain valuation survey"
+                                  },
+                                  "type": {
+                                    "code": "SPL",
+                                    "meaning": "To be determined"
+                                  },
+                                  "class": {
+                                    "code": "RCA",
+                                    "meaning": "To be determined"
+                                  },
+                                  "data": {
+                                    "foreign_ids": [
+                                      {
+                                        "system": "HMRC-VO_VOS-CTX",
+                                        "location": "hmrc/vos/ctx/pads",
+                                        "value": "0c5628fe-fd5e-4201-a40c-3c4422ca752b"
+                                      }
+                                    ],
+                                    "foreign_names": [],
+                                    "foreign_labels": [],
+                                    "survey": {
+                                      "id": 282736455,
+                                      "idx": "1",
+                                      "name": null,
+                                      "label": "Site",
+                                      "description": null,
+                                      "origination": null,
+                                      "termination": null,
+                                      "category": {
+                                        "code": "LTX-DOM-CON",
+                                        "meaning": "Temporal spatial unit formed by reference to statutory and common law principles of rateable occupation."
+                                      },
+                                      "type": {
+                                        "code": "HOR",
+                                        "meaning": "A two dimensional horizontal unit of space"
+                                      },
+                                      "class": {
+                                        "code": "SIT",
+                                        "meaning": "Site"
+                                      },
+                                      "data": {
+                                        "foreign_ids": [],
+                                        "foreign_names": [],
+                                        "foreign_labels": [],
+                                        "design": {
+                                          "group": {
+                                            "code": "03",
+                                            "label": "Small basic dwellings, built before 1919"
+                                          },
+                                          "type": {
+                                            "code": "HT",
+                                            "label": "Mid-terrace house"
+                                          }
+                                        },
+                                        "construction": {
+                                          "age": {
+                                            "code": "A",
+                                            "label": "Pre-1900"
+                                          },
+                                          "modernised": "N",
+                                          "lowest_floor_level": "0:00",
+                                          "number_of_floor_levels": 2,
+                                          "area": 83.5
+                                        },
+                                        "accomodation": {
+                                          "total_number_of_rooms": 5,
+                                          "number_of_bedrooms": 3,
+                                          "number_of_bathrooms": 2,
+                                          "conservatory": {
+                                            "type": {
+                                              "code": "N",
+                                              "label": "No Conservatory Exists"
+                                            },
+                                            "area": null
+                                          }
+                                        },
+                                        "facilities": {
+                                          "central_heating": {
+                                            "code": "N",
+                                            "label": "None"
+                                          }
+                                        },
+                                        "features": {
+                                          "value_significant": [
+                                            {
+                                              "code": "HO",
+                                              "label": "Penthouse"
+                                            }
+                                          ]
+                                        },
+                                        "outside": {
+                                          "outbuildings": {
+                                            "code": "X",
+                                            "label": "Existence of outbuildings not known"
+                                          },
+                                          "parking": {
+                                            "code": "SP",
+                                            "label": "Street or Communal parking only"
+                                          },
+                                          "plot_size": null
+                                        }
+                                      },
+                                      "protodata": [],
+                                      "metadata": {
+                                        "sending": {
+                                          "extracting": {
+                                            "selecting": {}
+                                          },
+                                          "transforming": {
+                                            "filtering": {},
+                                            "supplementing": {},
+                                            "recontextualising": {}
+                                          },
+                                          "loading": {
+                                            "readying": {},
+                                            "assuring": {},
+                                            "signing": {
+                                              "inputs": {
+                                                "hash": null,
+                                                "signature": null
+                                              }
+                                            },
+                                            "encrypting": {},
+                                            "sending": {}
+                                          }
+                                        },
+                                        "receiving": {
+                                          "unloading": {
+                                            "receiving": {},
+                                            "decrypting": {},
+                                            "verifying": {},
+                                            "assuring": {},
+                                            "readying": {}
+                                          },
+                                          "transforming": {
+                                            "recontextualising": {},
+                                            "dropping": {},
+                                            "restoring": {}
+                                          },
+                                          "storing": {
+                                            "inserting": {}
+                                          }
+                                        }
+                                      },
+                                      "compartments": {},
+                                      "items": []
+                                    }
+                                  },
+                                  "protodata": [],
+                                  "metadata": {
+                                    "sending": {
+                                      "extracting": {
+                                        "selecting": {}
+                                      },
+                                      "transforming": {
+                                        "filtering": {},
+                                        "supplementing": {},
+                                        "recontextualising": {}
+                                      },
+                                      "loading": {
+                                        "readying": {},
+                                        "assuring": {},
+                                        "signing": {
+                                          "inputs": {
+                                            "hash": null,
+                                            "signature": null
+                                          }
+                                        },
+                                        "encrypting": {},
+                                        "sending": {}
+                                      }
+                                    },
+                                    "receiving": {
+                                      "unloading": {
+                                        "receiving": {},
+                                        "decrypting": {},
+                                        "verifying": {},
+                                        "assuring": {},
+                                        "readying": {}
+                                      },
+                                      "transforming": {
+                                        "recontextualising": {},
+                                        "dropping": {},
+                                        "restoring": {}
+                                      },
+                                      "storing": {
+                                        "inserting": {}
+                                      }
+                                    }
+                                  },
+                                  "compartments": {},
+                                  "items": []
+                                }
+                              ]
+                            },
+                            "protodata": [],
+                            "metadata": {
+                              "sending": {
+                                "extracting": {
+                                  "selecting": {}
+                                },
+                                "transforming": {
+                                  "filtering": {},
+                                  "supplementing": {},
+                                  "recontextualising": {}
+                                },
+                                "loading": {
+                                  "readying": {},
+                                  "assuring": {},
+                                  "signing": {
+                                    "inputs": {
+                                      "hash": null,
+                                      "signature": null
+                                    }
+                                  },
+                                  "encrypting": {},
+                                  "sending": {}
+                                }
+                              },
+                              "receiving": {
+                                "unloading": {
+                                  "receiving": {},
+                                  "decrypting": {},
+                                  "verifying": {},
+                                  "assuring": {},
+                                  "readying": {}
+                                },
+                                "transforming": {
+                                  "recontextualising": {},
+                                  "dropping": {},
+                                  "restoring": {}
+                                },
+                                "storing": {
+                                  "inserting": {}
+                                }
+                              }
+                            },
+                            "compartments": {},
+                            "items": []
+                          }
+                        ]
+                      },
+                      "period": {
+                        "effective_from_date": "20050401T000000Z",
+                        "effective_to_date": null
+                      },
+                      "administration": {
+                        "alteration_date": null,
+                        "alteration_seq_no": null,
+                        "entry_seq_no": null,
+                        "judicially_ordered_by": null,
+                        "transitionally_certified": null
+                      },
+                      "workflow": {
+                        "creating_job_id": "df516899-30c2-41c3-aafe-3ffe222cc987"
+                      }
+                    },
+                    "protodata": [],
+                    "metadata": {
+                      "sending": {
+                        "extracting": {
+                          "selecting": {}
+                        },
+                        "transforming": {
+                          "filtering": {},
+                          "supplementing": {},
+                          "recontextualising": {}
+                        },
+                        "loading": {
+                          "readying": {},
+                          "assuring": {},
+                          "signing": {
+                            "inputs": {
+                              "hash": null,
+                              "signature": null
+                            }
+                          },
+                          "encrypting": {},
+                          "sending": {}
+                        }
+                      },
+                      "receiving": {
+                        "unloading": {
+                          "receiving": {},
+                          "decrypting": {},
+                          "verifying": {},
+                          "assuring": {},
+                          "readying": {}
+                        },
+                        "transforming": {
+                          "recontextualising": {},
+                          "dropping": {},
+                          "restoring": {}
+                        },
+                        "storing": {
+                          "inserting": {}
+                        }
+                      }
+                    },
+                    "compartments": {},
+                    "items": []
+                  }
+                ]
+              }
+            ]
+          },
+          "protodata": [],
+          "metadata": {
+            "sending": {
+              "extracting": {
+                "selecting": {}
+              },
+              "transforming": {
+                "filtering": {},
+                "supplementing": {},
+                "recontextualising": {}
+              },
+              "loading": {
+                "readying": {},
+                "assuring": {},
+                "signing": {
+                  "inputs": {
+                    "hash": null,
+                    "signature": null
+                  }
+                },
+                "encrypting": {},
+                "sending": {}
+              }
+            },
+            "receiving": {
+              "unloading": {
+                "receiving": {},
+                "decrypting": {},
+                "verifying": {},
+                "assuring": {},
+                "readying": {}
+              },
+              "transforming": {
+                "recontextualising": {},
+                "dropping": {},
+                "restoring": {}
+              },
+              "storing": {
+                "inserting": {}
+              }
+            }
+          },
+          "compartments": {},
+          "items": []
+        },
+        {
+          "id": null,
+          "idx": "1.4.3",
+          "name": null,
+          "label": "Proposer-ListEntry-Property Link",
+          "description": null,
+          "origination": null,
+          "termination": null,
+          "category": {
+            "code": "LTX-DOM-REL",
+            "meaning": "Local taxation domain relationship"
+          },
+          "type": {
+            "code": "LIB",
+            "meaning": "Liability | One entity is liable for the other entity(s) and the other entity(s) are the basis for the liabilities extent"
+          },
+          "class": {
+            "code": "CRD",
+            "meaning": "Council tax Resident Dwelling Charge (LGFA92...)"
+          },
+          "data": {
+            "foreign_ids": [],
+            "foreign_names": [],
+            "foreign_labels": [],
+            "manifestations": [
+              {
+                "artifact_reference": null,
+                "artifact_code": "CTB",
+                "artifact_description": null,
+                "issued_date": null,
+                "withdrawn_date": null,
+                "effective_from_date": null,
+                "effective_to_date": null,
+                "observed_date": null,
+                "operative_area_code": null,
+                "protodata_ptr": "https://hmrc/sdes/yry64849ree",
+                "notes": null
+              }
+            ]
+          },
+          "protodata": [],
+          "metadata": {
+            "sending": {
+              "extracting": {
+                "selecting": {}
+              },
+              "transforming": {
+                "filtering": {},
+                "supplementing": {},
+                "recontextualising": {}
+              },
+              "loading": {
+                "readying": {},
+                "assuring": {},
+                "signing": {},
+                "encrypting": {},
+                "sending": {}
+              }
+            },
+            "receiving": {
+              "unloading": {
+                "receiving": {},
+                "decrypting": {},
+                "verifying": {},
+                "assuring": {},
+                "readying": {}
+              },
+              "transforming": {
+                "recontextualising": {},
+                "dropping": {},
+                "restoring": {}
+              },
+              "storing": {
+                "inserting": {}
+              }
+            }
+          },
+          "compartments": {},
+          "items": [
+            {
+              "transportation": {
+                "path": "/job/compartments/persons/@id=10/items/@id=10"
+              },
+              "persistence": {
+                "place": "LTX-DOM-PSA",
+                "identifier": "???"
+              }
+            },
+            {
+              "transportation": {
+                "path": "/job/compartments/properties/@id=11/data/assessments/@id=11"
+              },
+              "persistence": {
+                "place": "LTX-DOM-LEN",
+                "identifier": "???"
+              }
+            }
+          ]
+        }
+      ],
+      "relationships": [
+        {
+          "id": null,
+          "idx": "1.5",
+          "name": null,
+          "label": "Proposer-ListEntry-Property Link",
+          "description": null,
+          "origination": null,
+          "termination": null,
+          "category": {
+            "code": "LTX-DOM-REL",
+            "meaning": "Local taxation domain relationship"
+          },
+          "type": {
+            "code": null,
+            "meaning": null
+          },
+          "class": {
+            "code": null,
+            "meaning": null
+          },
+          "data": {
+            "foreign_ids": [],
+            "foreign_names": [],
+            "foreign_labels": [],
+            "manifestations": [
+              {
+                "artifact_reference": null,
+                "artifact_code": null,
+                "artifact_description": null,
+                "issued_date": null,
+                "withdrawn_date": null,
+                "effective_from_date": null,
+                "effective_to_date": null,
+                "observed_date": null,
+                "operative_area_code": null,
+                "operative_area_name": null,
+                "protodata_ptr": null,
+                "notes": null
+              }
+            ]
+          },
+          "protodata": [],
+          "metadata": {
+            "sending": {
+              "extracting": {
+                "selecting": {}
+              },
+              "transforming": {
+                "filtering": {},
+                "supplementing": {},
+                "recontextualising": {}
+              },
+              "loading": {
+                "readying": {},
+                "assuring": {},
+                "signing": {},
+                "encrypting": {},
+                "sending": {}
+              }
+            },
+            "receiving": {
+              "unloading": {
+                "receiving": {},
+                "decrypting": {},
+                "verifying": {},
+                "assuring": {},
+                "readying": {}
+              },
+              "transforming": {
+                "recontextualising": {},
+                "dropping": {},
+                "restoring": {}
+              },
+              "storing": {
+                "inserting": {}
+              }
+            }
+          },
+          "compartments": {},
+          "items": [
+            {
+              "transportation": {
+                "path": "/job/compartments/persons/@id=#/items/@id=#"
+              },
+              "persistence": {
+                "place": "LTX-DOM-PSA",
+                "identifier": null
+              }
+            },
+            {
+              "transportation": {
+                "path": "/job/compartments/properties/@id=#/data/listentries/@id=#"
+              },
+              "persistence": {
+                "place": "LTX-DOM-LEN",
+                "identifier": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "items": []
+  }
+}
