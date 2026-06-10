@@ -1,0 +1,83 @@
+{
+  "_id": "/ct-wales-stub/hip/voa/v1/job/ct-wales-searches",
+  "method": "GET",
+  "status": 200,
+  "response": {
+    "results": {
+      "total_records": 102,
+      "page_number": 1,
+      "records": [
+        {
+          "record": {
+            "sequence_number": 38,
+            "data": {
+              "list": {
+                "id": "35438729-ccc6-4977-915a-65424dc56f4a",
+                "classification": {
+                  "code": "CVW",
+                  "label": "Council tax valuation list for a billing authority in Wales (LGFA92s22B2(b)to3A)"
+                },
+                "country": {
+                  "ons_code": "W92000004",
+                  "ons_code_label": "Wales | Cymru"
+                },
+                "collection_authority": {
+                  "ons_code": "W07000064",
+                  "ons_code_label": "Ceredigion | Ceredigion"
+                },
+                "inforcement_period": {
+                  "commencement_date": "20050401T000000Z",
+                  "expiration_date": null
+                },
+                "compilation_date": "20050401T000000Z",
+                "valuation_date": "20030401T000000Z",
+                "total_of_all_valuations": null
+              },
+              "list_entry": {
+                "id": "1789fb59-00c2-496c-9513-d099df31f105",
+                "designated_person": {
+                  "name": null,
+                  "address": null,
+                  "company_number": null
+                },
+                "relevant_property": {
+                  "id": "5d3bd996-d0df-4688-b8ad-36487dab6d27",
+                  "full_address": "30 CAMBRIAN STREET, ABERYSTWYTH, SY23 1NZ",
+                  "improvement_ind": null
+                },
+                "use": {
+                  "description": null,
+                  "composite_ind": "N",
+                  "part_exempt_ind": null
+                },
+                "valuation": {
+                  "value": "D",
+                  "method": {
+                    "code": null,
+                    "label": null
+                  },
+                  "previous": null
+                },
+                "period": {
+                  "effective_from_date": "20050401T000000Z",
+                  "effective_to_date": null
+                },
+                "administration": {
+                  "alteration_date": null,
+                  "alteration_seq_no": null,
+                  "entry_seq_no": null,
+                  "judicially_ordered_by": null,
+                  "transitionally_certified": null,
+                  "collection_authority_ref": null
+                },
+                "workflow": {
+                  "creating_job_id": "df516899-30c2-41c3-aafe-3ffe222cc987"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
