@@ -1,0 +1,14 @@
+{
+  "_id": "/bridge-integration-stub/verification-status/0000000026936462",
+  "method": "GET",
+  "status": 200,
+  "response": {
+    "emails":[
+      {
+        "emailAddress":"fredbloggs@hotmail.com",
+        "verified":true,
+        "locked":false
+      }
+    ]
+  }
+}
