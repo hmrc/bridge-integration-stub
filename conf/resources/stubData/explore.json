@@ -1,0 +1,78 @@
+{
+  "_id": "/bridge-integration-stub/explore",
+  "method": "GET",
+  "status": 200,
+  "response": {
+    "list": {
+      "id": {
+        "value": "123456789567"
+      },
+      "classification": {
+        "code": "",
+        "meaning": ""
+      },
+      "country": {
+        "ons_code": "W92000004",
+        "ons_code_label": "Wales | Cymru"
+      },
+      "collection_authority": {
+        "ons_code": "W07000064",
+        "ons_code_label": "Ceredigion | Ceredigion"
+      },
+      "inforcement_period": {
+        "commencement_date": "20050401",
+        "expiration_date": null
+      },
+      "compilation_date": null,
+      "valuation_date": null,
+      "total_of_all_valuations": null
+    },
+    "list_entry": {
+      "id": {
+        "value": "123456789567"
+      },
+      "designated_person": {
+        "name": "Designated Person 2",
+        "address": "1 Test Street, London",
+        "company_number": "COMP2"
+      },
+      "relevant_property": {
+        "vos_property_id": "VOS-2"
+      },
+      "use": {
+        "description": "General Commercial Use",
+        "composite_ind": "N",
+        "part_exempt_ind": "N"
+      },
+      "valuation": {
+        "value": "D",
+        "method": {
+          "code": null,
+          "meaning": null
+        },
+        "previous": "STD"
+      },
+      "period": {
+        "effective_from_date": "20050401",
+        "effective_to_date": null
+      },
+      "administration": {
+        "alteration_date": "20230401",
+        "alteration_seq_no": "1",
+        "entry_seq_no": "1",
+        "judicially_ordered_by": null,
+        "transitionally_certified": "N",
+        "collection_authority_ref": null
+      },
+      "workflow": {
+        "creating_job_id": "R5R875-B52D043-F767863-66ZZZ"
+      },
+      "addresses": {
+        "property_full_address": "4 Clos y Fedwen, Cardiff, CF14 0AA"
+      },
+      "property": {
+        "improvement_ind": null
+      }
+    }
+  }
+}
