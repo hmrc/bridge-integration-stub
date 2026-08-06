@@ -1,5 +1,5 @@
 {
-  "_id": "/bridge-integration-stub/hip/voa/v1/job/ct-wales-searches/v2",
+  "_id": "/bridge-integration-stub/hip/voa/v1/job/search?postcode=SY231NZ&listType=CVW",
   "method": "GET",
   "status": 200,
   "response": {
