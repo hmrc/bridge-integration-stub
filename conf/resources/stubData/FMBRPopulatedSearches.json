@@ -1,5 +1,5 @@
 {
-  "_id": "/bridge-integration-stub/hip/voa/v1/job/search?postcode=SY231NZ&listType=FMBR",
+  "_id": "/bridge-integration-stub/hip/voa/v1/search?postcode=SY231NZ&listType=FMBR",
   "method": "GET",
   "status": 200,
   "response": {
