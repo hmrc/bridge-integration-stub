@@ -4,8 +4,7 @@
   "status": 200,
   "response": {
     "results": {
-      "offset": 0,
-      "limit": 20,
+      "page_size": 20,
       "current_page": 1,
       "total_results": 1,
       "total_pages": 1,
