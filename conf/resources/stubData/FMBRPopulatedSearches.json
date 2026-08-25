@@ -1,11 +1,10 @@
 {
-  "_id": "/bridge-integration-stub/hip/voa/v1/search?postcode=SY231NZ&listType=FMBR",
+  "_id": "/bridge-integration-stub/hip/voa/v1/search?postcode=SY231NZ&listType=FBR",
   "method": "GET",
   "status": 200,
   "response": {
     "results": {
-      "offset": 0,
-      "limit": 20,
+      "page_size": 20,
       "current_page": 1,
       "total_results": 1,
       "total_pages": 1,
@@ -18,7 +17,7 @@
               "value": "123456789567"
             },
             "classification": {
-              "code": "CVW",
+              "code": "FBR",
               "meaning": "Council tax valuation list for a billing authority in Wales (LGFA92s22B2(b)to3A)"
             },
             "collection_authority": {
@@ -37,7 +36,7 @@
               "description": "General Commercial Use"
             },
             "valuation": {
-              "value": "D"
+              "value": "E"
             },
             "period": {
               "effective_from_date": "20050401",
