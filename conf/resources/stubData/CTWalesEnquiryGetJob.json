@@ -1,0 +1,150 @@
+{
+  "_id": "/bridge-integration-stub/hip/voa/v1/job/councilTaxProposal?listEntryId=6A7D3B18-E92A-47AB-8795-82B6D1E78069&listType=CVW",
+  "method": "GET",
+  "status": 200,
+  "response": {
+    "job": {
+      "id": 999999999,
+      "idx": "string",
+      "name": "string",
+      "label": "string",
+      "description": "string",
+      "origination": "97111203T152619Z",
+      "termination": "29101130T234323Z",
+      "protodata": [
+        {
+          "node": "string",
+          "mime_type": "image/jpeg",
+          "label": "string",
+          "is_pointer": true,
+          "pointer": "string",
+          "data": "string"
+        }
+      ],
+      "metadata": {
+        "sending": {
+          "extracting": {
+            "selecting": {}
+          },
+          "transforming": {
+            "filtering": {},
+            "supplementing": {},
+            "recontextualising": {}
+          },
+          "loading": {
+            "readying": {},
+            "assuring": {},
+            "signing": {
+              "inputs": {
+                "hash": "stringstringstringstringstringstringstringst",
+                "signature": "stringstringstringstringstringstringstringst"
+              }
+            },
+            "encrypting": {},
+            "sending": {}
+          }
+        },
+        "receiving": {
+          "unloading": {
+            "receiving": {},
+            "decrypting": {},
+            "verifying": {},
+            "assuring": {},
+            "readying": {}
+          },
+          "transforming": {
+            "recontextualising": {},
+            "dropping": {},
+            "restoring": {}
+          },
+          "storing": {
+            "inserting": {}
+          }
+        }
+      },
+      "category": {
+        "meaning": "string",
+        "code": "LTX-DOM-JOB"
+      },
+      "type": {
+        "meaning": "string",
+        "code": "string"
+      },
+      "class": {
+        "meaning": "string",
+        "code": "string"
+      },
+      "data": {
+        "foreign_ids": [
+          {
+            "system": "Government_Gateway",
+            "location": "string",
+            "value": "string"
+          }
+        ],
+        "foreign_labels": [
+          {
+            "system": "Government_Gateway",
+            "location": "string",
+            "value": "string"
+          }
+        ],
+        "foreign_names": [
+          {
+            "system": "Government_Gateway",
+            "location": "string",
+            "value": "string"
+          }
+        ],
+        "premises": [
+          {
+            "unique_statutory_ref": "string",
+            "text": "string",
+            "statements": [
+              {
+                "unique_statutory_ref": "string",
+                "text": "string"
+              }
+            ],
+            "information": [
+              {
+                "unique_statutory_ref": "string",
+                "text": "string"
+              }
+            ]
+          }
+        ],
+        "proposition": [
+          {
+            "unique_statutory_ref": "string",
+            "alterations": [
+              "string"
+            ]
+          }
+        ]
+      },
+      "compartments": {
+        "properties": [
+          {}
+        ],
+        "persons": [
+          {}
+        ],
+        "processes": [
+          {}
+        ],
+        "products": [
+          {
+            "category": {
+              "code": "LTX-DOM-JOB"
+            }
+          }
+        ],
+        "relationships": [
+          {}
+        ]
+      },
+      "items": []
+    }
+  }
+}
