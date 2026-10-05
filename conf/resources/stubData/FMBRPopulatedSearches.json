@@ -3,48 +3,49 @@
   "method": "GET",
   "status": 200,
   "response": {
-    "results": {
-      "page_size": 20,
-      "current_page": 1,
-      "total_results": 1,
-      "total_pages": 1,
-      "has_next": false,
-      "has_previous": false,
-      "records": [
-        {
-          "list": {
-            "id": {
-              "value": "123456789567"
-            },
-            "classification": {
-              "code": "FBR",
-              "meaning": "Council tax valuation list for a billing authority in Wales (LGFA92s22B2(b)to3A)"
-            },
-            "collection_authority": {
-              "ons_code": "W07000064",
-              "ons_code_label": "Ceredigion | Ceredigion"
-            }
+  "results": {
+    "current_page": 1,
+    "page_size": 20,
+    "total_results": 1,
+    "total_pages": 1,
+    "has_next": false,
+    "has_previous": false,
+    "records": [
+      {
+        "list": {
+          "id": {
+            "value": "123456789568"
           },
-          "list_entry": {
-            "relevant_property": {
-              "vos_property_id": "VOS-844"
+          "class": {
+            "code": "FBR",
+            "meaning": "Find my business rates"
+          },
+          "collection_authority": {
+            "code": "W07000064"
+          }
+        },
+        "list_entry": {
+          "use": {
+            "description": "Offices and premises"
+          },
+          "valuation": {
+            "value": "E"
+          },
+          "period": {
+            "effective_from_date": "20050401T000000Z",
+            "effective_to_date": "20280101T000000Z"
+          },
+          "property": {
+            "id": {
+              "value": "E7653E94-696B-4546-8807-734A5FD88085"
             },
-            "addresses": {
-              "property_full_address": "1 Y Deri Duon, Lisvane, Cardiff,CF14 0AA"
-            },
-            "use": {
-              "description": "General Commercial Use"
-            },
-            "valuation": {
-              "value": "E"
-            },
-            "period": {
-              "effective_from_date": "20050401",
-              "effective_to_date": null
+            "address": {
+              "full": "2, NEW GEORGE STREET, PLYMOUTH, PL1 2LY"
             }
           }
         }
-      ]
-    }
+      }
+    ]
+  }
   }
 }
