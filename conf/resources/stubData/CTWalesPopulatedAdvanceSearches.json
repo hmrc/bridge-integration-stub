@@ -1,0 +1,51 @@
+{
+  "_id": "/bridge-integration-stub/hip/voa/v1/search?postcode=*&listType=*",
+  "method": "GET",
+  "status": 200,
+  "response": {
+  "results": {
+    "current_page": 1,
+    "page_size": 5,
+    "total_results": 1,
+    "total_pages": 1,
+    "has_next": false,
+    "has_previous": false,
+    "records": [
+      {
+        "list": {
+          "id": {
+            "value": "123456789569"
+          },
+          "class": {
+            "code": "CVW",
+            "meaning": "Council tax valuation list for a billing authority in Wales"
+          },
+          "collection_authority": {
+            "code": "W07000064"
+          }
+        },
+        "list_entry": {
+          "use": {
+            "description": "General Commercial Use"
+          },
+          "valuation": {
+            "value": "D"
+          },
+          "period": {
+            "effective_from_date": "20050401T000000Z",
+            "effective_to_date": "20280101T000000Z"
+          },
+          "property": {
+            "id": {
+              "value": "38DA4B95-5061-4423-8024-9CAC37956E42"
+            },
+            "address": {
+              "full": "3, Y Deri Duon, Cardiff, South Glamorgan 1NZ"
+            }
+          }
+        }
+      }
+    ]
+  }
+}
+}
