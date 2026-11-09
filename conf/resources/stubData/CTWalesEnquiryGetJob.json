@@ -3,148 +3,1375 @@
   "method": "GET",
   "status": 200,
   "response": {
-    "job": {
-      "id": 999999999,
-      "idx": "string",
-      "name": "string",
-      "label": "string",
-      "description": "string",
-      "origination": "97111203T152619Z",
-      "termination": "29101130T234323Z",
-      "protodata": [
-        {
-          "node": "string",
-          "mime_type": "image/jpeg",
-          "label": "string",
-          "is_pointer": true,
-          "pointer": "string",
-          "data": "string"
-        }
-      ],
-      "metadata": {
-        "sending": {
-          "extracting": {
-            "selecting": {}
-          },
-          "transforming": {
-            "filtering": {},
-            "supplementing": {},
-            "recontextualising": {}
-          },
-          "loading": {
-            "readying": {},
-            "assuring": {},
-            "signing": {
-              "inputs": {
-                "hash": "stringstringstringstringstringstringstringst",
-                "signature": "stringstringstringstringstringstringstringst"
-              }
-            },
-            "encrypting": {},
-            "sending": {}
-          }
+  "$schema": "./SCHEMA_V2.json",
+  "job": {
+    "id": null,
+    "idx": "1",
+    "name": "LOCAL_TAXATION_DOMAIN_JOB",
+    "label": "Enquiry About Altering A Local Taxation List",
+    "description": "Job for making enquiries about alterations to local taxation lists.",
+    "origination": "20261106T162906Z",
+    "termination": null,
+    "category": {
+      "code": "LTX-DOM-JOB",
+      "meaning": "Local Taxation Domain JOB"
+    },
+    "type": {
+      "code": "ENQ",
+      "meaning": "Jobs used to manage enquiries received by LGFA officers that may alter local taxation lists based on premises and including a proposition"
+    },
+    "class": {
+      "code": "PPL",
+      "meaning": "Jobs that that may be treated as proposals to alter local taxation lists served on LGFA officers and based on legally condoned premises and propositions"
+    },
+    "data": {
+      "foreign_ids": [],
+      "foreign_names": [],
+      "foreign_labels": [],
+      "premises": [],
+      "proposition": []
+    },
+    "protodata": [],
+    "metadata": {
+      "sending": {
+        "extracting": {
+          "selecting": {}
         },
-        "receiving": {
-          "unloading": {
-            "receiving": {},
-            "decrypting": {},
-            "verifying": {},
-            "assuring": {},
-            "readying": {}
+        "transforming": {
+          "filtering": {},
+          "supplementing": {},
+          "recontextualising": {}
+        },
+        "loading": {
+          "readying": {},
+          "assuring": {},
+          "signing": {
+            "inputs": {
+              "hash": "C7R2IONbAIhHphJXPtKd8vWs3jDY30VRpT1++MnEOZ4=",
+              "signature": null
+            }
           },
-          "transforming": {
-            "recontextualising": {},
-            "dropping": {},
-            "restoring": {}
-          },
-          "storing": {
-            "inserting": {}
-          }
+          "encrypting": {},
+          "sending": {}
         }
       },
-      "category": {
-        "meaning": "string",
-        "code": "LTX-DOM-JOB"
-      },
-      "type": {
-        "meaning": "string",
-        "code": "string"
-      },
-      "class": {
-        "meaning": "string",
-        "code": "string"
-      },
-      "data": {
-        "foreign_ids": [
-          {
-            "system": "Government_Gateway",
-            "location": "string",
-            "value": "string"
-          }
-        ],
-        "foreign_labels": [
-          {
-            "system": "Government_Gateway",
-            "location": "string",
-            "value": "string"
-          }
-        ],
-        "foreign_names": [
-          {
-            "system": "Government_Gateway",
-            "location": "string",
-            "value": "string"
-          }
-        ],
-        "premises": [
-          {
-            "unique_statutory_ref": "string",
-            "text": "string",
-            "statements": [
+      "receiving": {
+        "unloading": {
+          "receiving": {},
+          "decrypting": {},
+          "verifying": {},
+          "assuring": {},
+          "readying": {}
+        },
+        "transforming": {
+          "recontextualising": {},
+          "dropping": {},
+          "restoring": {}
+        },
+        "storing": {
+          "inserting": {}
+        }
+      }
+    },
+    "compartments": {
+      "properties": [
+        {
+          "id": 201,
+          "idx": "1.201.1",
+          "name": "LOCAL_TAXATION_DOMAIN_PROPERTY",
+          "label": "1, Upper Dock Street, Newport, NP20 1AB",
+          "description": null,
+          "origination": "20261005T100000Z",
+          "termination": null,
+          "category": {
+            "code": "LTX-DOM-PRP",
+            "meaning": "Local Taxation Domain PROPERTY"
+          },
+          "type": {
+            "code": "CTX",
+            "meaning": "Manifestations of primary property units when required to be shown in council tax valuation lists by and in accordance with the Local Government Finance Act 1992"
+          },
+          "class": {
+            "code": "DWW",
+            "meaning": "A notional unit of a property that is not a local or central non-domestic qualifying hereditament and at least some part of which is used domestically in Wales"
+          },
+          "data": {
+            "foreign_ids": [
               {
-                "unique_statutory_ref": "string",
-                "text": "string"
+                "system": "National_Address_Gazetteer",
+                "location": "https://services.geoplace.co.uk/",
+                "value": "273996000001"
               }
             ],
-            "information": [
+            "foreign_names": [
               {
-                "unique_statutory_ref": "string",
-                "text": "string"
+                "system": "CDB",
+                "location": "UK",
+                "value": "273996000001"
+              }
+            ],
+            "foreign_labels": [
+              {
+                "system": "CDB",
+                "location": "UK",
+                "value": "273996000001"
+              }
+            ],
+            "address": {
+              "full": "1, Upper Dock Street, Newport, NP20 1AB",
+              "first_line": "1",
+              "postcode": "NP20 1AB",
+              "known_as": null
+            },
+            "location": {
+              "ordnance_survey": "a",
+              "google_maps": "g"
+            },
+            "links": [],
+            "workflow": {
+              "improvement_ind": "N"
+            },
+            "lists": [
+              {
+                "id": 158,
+                "idx": "1.158.1",
+                "name": "Name 1",
+                "label": "2005 COUNCIL TAX VALUATION LIST (WALES)",
+                "description": "Seeded test rating list",
+                "origination": "20261005T100000Z",
+                "termination": null,
+                "category": {
+                  "code": "LTX-DOM-LST",
+                  "meaning": "Local Taxation Domain LIST"
+                },
+                "type": {
+                  "code": "CHG",
+                  "meaning": "A container of statutory units of property that are or may become liable to a local taxation charge"
+                },
+                "class": {
+                  "code": "CVW",
+                  "meaning": "Council tax valuation list for a billing authority in Wales"
+                },
+                "data": {
+                  "foreign_ids": [
+                    {
+                      "system": "HMRC-VO_VOS-CTX",
+                      "location": "hmrc/vos/ctx/valuation_lists",
+                      "value": "123456789567"
+                    }
+                  ],
+                  "foreign_names": [
+                    {
+                      "system": "HMRC-VOA-CDB",
+                      "location": "rating_list.name",
+                      "value": "123456789567"
+                    }
+                  ],
+                  "foreign_labels": [
+                    {
+                      "system": "HMRC-VOA-CDB",
+                      "location": "rating_list.label",
+                      "value": "123456789567"
+                    }
+                  ],
+                  "country": {
+                    "code": "W92000004",
+                    "label": null
+                  },
+                  "collection_authority": {
+                    "code": "W07000064",
+                    "label": null
+                  },
+                  "inforcement_period": {
+                    "commencement_date": "20050401",
+                    "expiration_date": null
+                  },
+                  "administration": {
+                    "compilation_date": "20261005T100000Z",
+                    "valuation_date": "20261005T100000Z",
+                    "total_of_all_valuations": "1001"
+                  }
+                },
+                "protodata": [
+                  {
+                    "mime_type": "application/json",
+                    "label": "List Blob",
+                    "is_pointer": false,
+                    "pointer": "",
+                    "data": "{\"listId\":158}"
+                  }
+                ],
+                "metadata": {
+                  "sending": {
+                    "extracting": {
+                      "selecting": {}
+                    },
+                    "transforming": {
+                      "filtering": {},
+                      "supplementing": {},
+                      "recontextualising": {}
+                    },
+                    "loading": {
+                      "readying": {},
+                      "assuring": {},
+                      "signing": {},
+                      "encrypting": {},
+                      "sending": {}
+                    }
+                  },
+                  "receiving": {
+                    "unloading": {
+                      "receiving": {},
+                      "decrypting": {},
+                      "verifying": {},
+                      "assuring": {},
+                      "readying": {}
+                    },
+                    "transforming": {
+                      "recontextualising": {},
+                      "dropping": {},
+                      "restoring": {}
+                    },
+                    "storing": {
+                      "inserting": {}
+                    }
+                  }
+                },
+                "compartments": {},
+                "items": [
+                  {
+                    "id": 60,
+                    "idx": "1.60.1",
+                    "name": "List Entry 1",
+                    "label": "Rating List Entry 1",
+                    "description": "General Commercial Use",
+                    "origination": "20261005T100000Z",
+                    "termination": null,
+                    "category": {
+                      "code": "LTX-DOM-LEN",
+                      "meaning": "Local Taxation Domain LIST_ENTRY"
+                    },
+                    "type": {
+                      "code": "LIB",
+                      "meaning": "A record relating to a unit of property that hosts the values required by a collection authority to calculate and determine a persons liability for a local taxation charge"
+                    },
+                    "class": {
+                      "code": "CVW",
+                      "meaning": "Council tax valuation list for a billing authority in Wales"
+                    },
+                    "data": {
+                      "foreign_ids": [
+                        {
+                          "system": "HMRC-VO_VOS-CTX",
+                          "location": "hmrc/vos/ctx/valuation_list_entries",
+                          "value": "123456789567"
+                        }
+                      ],
+                      "foreign_names": [
+                        {
+                          "system": "HMRC-VOA-CDB",
+                          "location": "rating_list_entry.label",
+                          "value": "123456789567"
+                        }
+                      ],
+                      "foreign_labels": [
+                        {
+                          "system": "HMRC-VOA-CDB",
+                          "location": "rating_list_entry.name",
+                          "value": "123456789567"
+                        }
+                      ],
+                      "designated_person": {
+                        "name": null,
+                        "address": null,
+                        "company_number": null
+                      },
+                      "property": {
+                        "local_id": 201,
+                        "source_id": "C88A02A9-AEFE-40DD-9F1C-823B6E852C42"
+                      },
+                      "use": {
+                        "description": "General Commercial Use",
+                        "composite_ind": "N",
+                        "part_exempt_ind": "N"
+                      },
+                      "valuation": {
+                        "value": "E",
+                        "method": {
+                          "code": "W07000064",
+                          "label": null
+                        },
+                        "previous": null,
+                        "valuations": []
+                      },
+                      "period": {
+                        "effective_from_date": "20050401T000000Z",
+                        "effective_to_date": "20261015T100000Z"
+                      },
+                      "administration": {
+                        "alteration_date": "20261005T100000Z",
+                        "alteration_seq_no": "1",
+                        "entry_seq_no": "1",
+                        "judicially_ordered_by": "V",
+                        "transitionally_certified": "Not Transitionally"
+                      },
+                      "workflow": {
+                        "creating_job_id": "R5R875-B52D043-F767863-66ZZZ"
+                      }
+                    },
+                    "protodata": [
+                      {
+                        "mime_type": "application/json",
+                        "label": "ListEntry Blob",
+                        "is_pointer": false,
+                        "pointer": "",
+                        "data": "{\"listEntryId\":60}"
+                      }
+                    ],
+                    "metadata": {
+                      "sending": {
+                        "extracting": {
+                          "selecting": {}
+                        },
+                        "transforming": {
+                          "filtering": {},
+                          "supplementing": {},
+                          "recontextualising": {}
+                        },
+                        "loading": {
+                          "readying": {},
+                          "assuring": {},
+                          "signing": {},
+                          "encrypting": {},
+                          "sending": {}
+                        }
+                      },
+                      "receiving": {
+                        "unloading": {
+                          "receiving": {},
+                          "decrypting": {},
+                          "verifying": {},
+                          "assuring": {},
+                          "readying": {}
+                        },
+                        "transforming": {
+                          "recontextualising": {},
+                          "dropping": {},
+                          "restoring": {}
+                        },
+                        "storing": {
+                          "inserting": {}
+                        }
+                      }
+                    },
+                    "compartments": {},
+                    "items": []
+                  }
+                ]
               }
             ]
-          }
-        ],
-        "proposition": [
-          {
-            "unique_statutory_ref": "string",
-            "alterations": [
-              "string"
-            ]
-          }
-        ]
-      },
-      "compartments": {
-        "properties": [
-          {}
-        ],
-        "persons": [
-          {}
-        ],
-        "processes": [
-          {}
-        ],
-        "products": [
-          {
-            "category": {
-              "code": "LTX-DOM-JOB"
+          },
+          "protodata": [
+            {
+              "mime_type": "text/plain",
+              "label": "Notes",
+              "is_pointer": false,
+              "pointer": "",
+              "data": "Property note 1"
             }
-          }
-        ],
-        "relationships": [
-          {}
-        ]
-      },
-      "items": []
-    }
+          ],
+          "metadata": {
+            "sending": {
+              "extracting": {
+                "selecting": {}
+              },
+              "transforming": {
+                "filtering": {},
+                "supplementing": {},
+                "recontextualising": {}
+              },
+              "loading": {
+                "readying": {},
+                "assuring": {},
+                "signing": {},
+                "encrypting": {},
+                "sending": {}
+              }
+            },
+            "receiving": {
+              "unloading": {
+                "receiving": {},
+                "decrypting": {},
+                "verifying": {},
+                "assuring": {},
+                "readying": {}
+              },
+              "transforming": {
+                "recontextualising": {},
+                "dropping": {},
+                "restoring": {}
+              },
+              "storing": {
+                "inserting": {}
+              }
+            }
+          },
+          "compartments": {},
+          "items": []
+        }
+      ],
+      "persons": [
+        {
+          "id": null,
+          "idx": "1.2.1",
+          "name": "Government Gateway User",
+          "label": "Authenticated Government Gateway System User",
+          "description": "A Government Gateway authenticated natural, corporate or crown user of online services provided by the UK Government/HMRC whose type and class are not yet known or re-confirmed.",
+          "origination": null,
+          "termination": null,
+          "category": {
+            "code": "LTX-DOM-PSN",
+            "meaning": "Local Taxation Domain PERSON"
+          },
+          "type": {
+            "code": "",
+            "meaning": ""
+          },
+          "class": {
+            "code": "",
+            "meaning": ""
+          },
+          "data": {
+            "foreign_ids": [],
+            "foreign_names": [],
+            "foreign_labels": [],
+            "names": {
+              "title_common": "MR",
+              "title_uncommon": null,
+              "forenames": null,
+              "surname": null,
+              "post_nominals": null,
+              "corporate_name": null,
+              "crown_name": null,
+              "known_as": null
+            },
+            "communications": {
+              "postal_address": null,
+              "telephone_number": null,
+              "email": null
+            }
+          },
+          "protodata": [],
+          "metadata": {
+            "sending": {
+              "extracting": {
+                "selecting": {}
+              },
+              "transforming": {
+                "filtering": {},
+                "supplementing": {},
+                "recontextualising": {}
+              },
+              "loading": {
+                "readying": {},
+                "assuring": {},
+                "signing": {},
+                "encrypting": {},
+                "sending": {}
+              }
+            },
+            "receiving": {
+              "unloading": {
+                "receiving": {},
+                "decrypting": {},
+                "verifying": {},
+                "assuring": {},
+                "readying": {}
+              },
+              "transforming": {
+                "recontextualising": {},
+                "dropping": {},
+                "restoring": {}
+              },
+              "storing": {
+                "inserting": {}
+              }
+            }
+          },
+          "compartments": {},
+          "items": [
+            {
+              "id": null,
+              "idx": "1.2.1.1",
+              "name": "Local Taxation Persona",
+              "label": "Authenticated Local Taxation Persona",
+              "description": "A local taxation domain authenticated persona whose type and class are not yet known or re-confirmed, and that is assignable to the person.",
+              "origination": null,
+              "termination": null,
+              "category": {
+                "code": "LTX-DOM-PSA",
+                "meaning": "Local Taxation Domain PERSONA"
+              },
+              "type": {
+                "code": "TXP",
+                "meaning": "The persona of a person that is, or will become, liable to pay an LGFA tax to a collection authority"
+              },
+              "class": {
+                "code": "",
+                "meaning": ""
+              },
+              "data": {
+                "foreign_ids": [],
+                "foreign_names": [],
+                "foreign_labels": [],
+                "names": {
+                  "title_common": null,
+                  "title_uncommon": null,
+                  "forenames": null,
+                  "surname": null,
+                  "post_nominals": null,
+                  "corporate_name": null,
+                  "crown_name": null,
+                  "known_as": null
+                },
+                "communications": {
+                  "postal_address": null,
+                  "telephone_number": null,
+                  "email": null
+                },
+                "capacity": {
+                  "code": null,
+                  "meaning": null
+                }
+              },
+              "protodata": [],
+              "metadata": {
+                "sending": {
+                  "extracting": {
+                    "selecting": {}
+                  },
+                  "transforming": {
+                    "filtering": {},
+                    "supplementing": {},
+                    "recontextualising": {}
+                  },
+                  "loading": {
+                    "readying": {},
+                    "assuring": {},
+                    "signing": {},
+                    "encrypting": {},
+                    "sending": {}
+                  }
+                },
+                "receiving": {
+                  "unloading": {
+                    "receiving": {},
+                    "decrypting": {},
+                    "verifying": {},
+                    "assuring": {},
+                    "readying": {}
+                  },
+                  "transforming": {
+                    "recontextualising": {},
+                    "dropping": {},
+                    "restoring": {}
+                  },
+                  "storing": {
+                    "inserting": {}
+                  }
+                }
+              },
+              "compartments": {},
+              "items": []
+            }
+          ]
+        }
+      ],
+      "processes": [
+        {
+          "id": null,
+          "idx": "1.3.1",
+          "name": "Local Taxation Proposal Making",
+          "label": "Making Proposals To Alter Local Taxation Lists",
+          "description": "A local taxtion domain process producing persisted records about LGFA88 hereditaments in accordance with LGFA88shd9para4I(1).",
+          "origination": null,
+          "termination": null,
+          "category": {
+            "code": "LTX-DOM-PRS",
+            "meaning": "Local Taxation Domain PROCESS"
+          },
+          "type": {
+            "code": "VLP",
+            "meaning": "A process used to evidence, make, maintain and resolve council tax valuation lists and corresponding list entries"
+          },
+          "class": {
+            "code": "RVW",
+            "meaning": "A process for serving, discussing and settling proposed alterations to a valuation list made by persons having a prescribed stake in the accuracy of a list compiled for a billing authority in Wales"
+          },
+          "data": {
+            "foreign_ids": [],
+            "foreign_names": [],
+            "foreign_labels": [],
+            "documentation": {
+              "webpage": null
+            }
+          },
+          "protodata": [],
+          "metadata": {
+            "sending": {
+              "extracting": {
+                "selecting": {}
+              },
+              "transforming": {
+                "filtering": {},
+                "supplementing": {},
+                "recontextualising": {}
+              },
+              "loading": {
+                "readying": {},
+                "assuring": {},
+                "signing": {},
+                "encrypting": {},
+                "sending": {}
+              }
+            },
+            "receiving": {
+              "unloading": {
+                "receiving": {},
+                "decrypting": {},
+                "verifying": {},
+                "assuring": {},
+                "readying": {}
+              },
+              "transforming": {
+                "recontextualising": {},
+                "dropping": {},
+                "restoring": {}
+              },
+              "storing": {
+                "inserting": {}
+              }
+            }
+          },
+          "compartments": {},
+          "items": []
+        }
+      ],
+      "products": [
+        {
+          "id": 201,
+          "idx": "1.4.1",
+          "name": "LOCAL_TAXATION_DOMAIN_PROPERTY",
+          "label": "1, Upper Dock Street, Newport, NP20 1AB",
+          "description": null,
+          "origination": "20261005T100000Z",
+          "termination": null,
+          "category": {
+            "code": "LTX-DOM-PRP",
+            "meaning": "Local Taxation Domain PROPERTY"
+          },
+          "type": {
+            "code": "CTX",
+            "meaning": "Manifestations of primary property units when required to be shown in council tax valuation lists by and in accordance with the Local Government Finance Act 1992"
+          },
+          "class": {
+            "code": "DWW",
+            "meaning": "A notional unit of a property that is not a local or central non-domestic qualifying hereditament and at least some part of which is used domestically in Wales"
+          },
+          "data": {
+            "foreign_ids": [
+              {
+                "system": "National_Address_Gazetteer",
+                "location": "https://services.geoplace.co.uk/",
+                "value": "273996000001"
+              }
+            ],
+            "foreign_names": [
+              {
+                "system": "CDB",
+                "location": "UK",
+                "value": "273996000001"
+              }
+            ],
+            "foreign_labels": [
+              {
+                "system": "CDB",
+                "location": "UK",
+                "value": "273996000001"
+              }
+            ],
+            "address": {
+              "full": "1, Upper Dock Street, Newport, NP20 1AB",
+              "first_line": "1",
+              "postcode": "NP20 1AB",
+              "known_as": null
+            },
+            "location": {
+              "ordnance_survey": "a",
+              "google_maps": "g"
+            },
+            "links": [],
+            "workflow": {
+              "improvement_ind": "N"
+            },
+            "lists": [
+              {
+                "id": 158,
+                "idx": "1.4.1.1",
+                "name": "Name 1",
+                "label": "2005 COUNCIL TAX VALUATION LIST (WALES)",
+                "description": "Seeded test rating list",
+                "origination": "20261005T100000Z",
+                "termination": null,
+                "category": {
+                  "code": "LTX-DOM-LST",
+                  "meaning": "Local Taxation Domain LIST"
+                },
+                "type": {
+                  "code": "CHG",
+                  "meaning": "A container of statutory units of property that are or may become liable to a local taxation charge"
+                },
+                "class": {
+                  "code": "CVW",
+                  "meaning": "Council tax valuation list for a billing authority in Wales"
+                },
+                "data": {
+                  "foreign_ids": [
+                    {
+                      "system": "HMRC-VO_VOS-CTX",
+                      "location": "hmrc/vos/ctx/valuation_lists",
+                      "value": "123456789567"
+                    }
+                  ],
+                  "foreign_names": [
+                    {
+                      "system": "HMRC-VOA-CDB",
+                      "location": "rating_list.name",
+                      "value": "123456789567"
+                    }
+                  ],
+                  "foreign_labels": [
+                    {
+                      "system": "HMRC-VOA-CDB",
+                      "location": "rating_list.label",
+                      "value": "123456789567"
+                    }
+                  ],
+                  "country": {
+                    "code": "W92000004",
+                    "label": null
+                  },
+                  "collection_authority": {
+                    "code": "W07000064",
+                    "label": null
+                  },
+                  "inforcement_period": {
+                    "commencement_date": "20050401",
+                    "expiration_date": null
+                  },
+                  "administration": {
+                    "compilation_date": "20261005T100000Z",
+                    "valuation_date": "20261005T100000Z",
+                    "total_of_all_valuations": "1001"
+                  }
+                },
+                "protodata": [
+                  {
+                    "mime_type": "application/json",
+                    "label": "List Blob",
+                    "is_pointer": false,
+                    "pointer": "",
+                    "data": "{\"listId\":158}"
+                  }
+                ],
+                "metadata": {
+                  "sending": {
+                    "extracting": {
+                      "selecting": {}
+                    },
+                    "transforming": {
+                      "filtering": {},
+                      "supplementing": {},
+                      "recontextualising": {}
+                    },
+                    "loading": {
+                      "readying": {},
+                      "assuring": {},
+                      "signing": {},
+                      "encrypting": {},
+                      "sending": {}
+                    }
+                  },
+                  "receiving": {
+                    "unloading": {
+                      "receiving": {},
+                      "decrypting": {},
+                      "verifying": {},
+                      "assuring": {},
+                      "readying": {}
+                    },
+                    "transforming": {
+                      "recontextualising": {},
+                      "dropping": {},
+                      "restoring": {}
+                    },
+                    "storing": {
+                      "inserting": {}
+                    }
+                  }
+                },
+                "compartments": {},
+                "items": [
+                  {
+                    "id": 60,
+                    "idx": "1.4.1.1.1",
+                    "name": "List Entry 1",
+                    "label": "Rating List Entry 1",
+                    "description": "General Commercial Use",
+                    "origination": "20261005T100000Z",
+                    "termination": null,
+                    "category": {
+                      "code": "LTX-DOM-LEN",
+                      "meaning": "Local Taxation Domain LIST_ENTRY"
+                    },
+                    "type": {
+                      "code": "LIB",
+                      "meaning": "A record relating to a unit of property that hosts the values required by a collection authority to calculate and determine a persons liability for a local taxation charge"
+                    },
+                    "class": {
+                      "code": "CVW",
+                      "meaning": "Council tax valuation list for a billing authority in Wales"
+                    },
+                    "data": {
+                      "foreign_ids": [
+                        {
+                          "system": "HMRC-VO_VOS-CTX",
+                          "location": "hmrc/vos/ctx/valuation_list_entries",
+                          "value": "123456789567"
+                        }
+                      ],
+                      "foreign_names": [
+                        {
+                          "system": "HMRC-VOA-CDB",
+                          "location": "rating_list_entry.label",
+                          "value": "123456789567"
+                        }
+                      ],
+                      "foreign_labels": [
+                        {
+                          "system": "HMRC-VOA-CDB",
+                          "location": "rating_list_entry.name",
+                          "value": "123456789567"
+                        }
+                      ],
+                      "designated_person": {
+                        "name": null,
+                        "address": null,
+                        "company_number": null
+                      },
+                      "property": {
+                        "local_id": 201,
+                        "source_id": "C88A02A9-AEFE-40DD-9F1C-823B6E852C42"
+                      },
+                      "use": {
+                        "description": "General Commercial Use",
+                        "composite_ind": "N",
+                        "part_exempt_ind": "N"
+                      },
+                      "valuation": {
+                        "value": "E",
+                        "method": {
+                          "code": "W07000064",
+                          "label": null
+                        },
+                        "previous": null,
+                        "valuations": []
+                      },
+                      "period": {
+                        "effective_from_date": "20050401T000000Z",
+                        "effective_to_date": "20261015T100000Z"
+                      },
+                      "administration": {
+                        "alteration_date": "20261005T100000Z",
+                        "alteration_seq_no": "1",
+                        "entry_seq_no": "1",
+                        "judicially_ordered_by": "V",
+                        "transitionally_certified": "Not Transitionally"
+                      },
+                      "workflow": {
+                        "creating_job_id": "R5R875-B52D043-F767863-66ZZZ"
+                      }
+                    },
+                    "protodata": [
+                      {
+                        "mime_type": "application/json",
+                        "label": "ListEntry Blob",
+                        "is_pointer": false,
+                        "pointer": "",
+                        "data": "{\"listEntryId\":60}"
+                      }
+                    ],
+                    "metadata": {
+                      "sending": {
+                        "extracting": {
+                          "selecting": {}
+                        },
+                        "transforming": {
+                          "filtering": {},
+                          "supplementing": {},
+                          "recontextualising": {}
+                        },
+                        "loading": {
+                          "readying": {},
+                          "assuring": {},
+                          "signing": {},
+                          "encrypting": {},
+                          "sending": {}
+                        }
+                      },
+                      "receiving": {
+                        "unloading": {
+                          "receiving": {},
+                          "decrypting": {},
+                          "verifying": {},
+                          "assuring": {},
+                          "readying": {}
+                        },
+                        "transforming": {
+                          "recontextualising": {},
+                          "dropping": {},
+                          "restoring": {}
+                        },
+                        "storing": {
+                          "inserting": {}
+                        }
+                      }
+                    },
+                    "compartments": {},
+                    "items": []
+                  }
+                ]
+              }
+            ]
+          },
+          "protodata": [
+            {
+              "mime_type": "text/plain",
+              "label": "Notes",
+              "is_pointer": false,
+              "pointer": "",
+              "data": "Property note 1"
+            }
+          ],
+          "metadata": {
+            "sending": {
+              "extracting": {
+                "selecting": {}
+              },
+              "transforming": {
+                "filtering": {},
+                "supplementing": {},
+                "recontextualising": {}
+              },
+              "loading": {
+                "readying": {},
+                "assuring": {},
+                "signing": {},
+                "encrypting": {},
+                "sending": {}
+              }
+            },
+            "receiving": {
+              "unloading": {
+                "receiving": {},
+                "decrypting": {},
+                "verifying": {},
+                "assuring": {},
+                "readying": {}
+              },
+              "transforming": {
+                "recontextualising": {},
+                "dropping": {},
+                "restoring": {}
+              },
+              "storing": {
+                "inserting": {}
+              }
+            }
+          },
+          "compartments": {},
+          "items": []
+        },
+        {
+          "id": null,
+          "idx": "1.4.2",
+          "name": "Government Gateway User",
+          "label": "Authenticated Government Gateway System User",
+          "description": "A Government Gateway authenticated natural, corporate or crown user of online services provided by the UK Government/HMRC whose type and class are not yet known or re-confirmed.",
+          "origination": null,
+          "termination": null,
+          "category": {
+            "code": "LTX-DOM-PSN",
+            "meaning": "Local Taxation Domain PERSON"
+          },
+          "type": {
+            "code": "",
+            "meaning": ""
+          },
+          "class": {
+            "code": "",
+            "meaning": ""
+          },
+          "data": {
+            "foreign_ids": [],
+            "foreign_names": [],
+            "foreign_labels": [],
+            "names": {
+              "title_common": null,
+              "title_uncommon": null,
+              "forenames": null,
+              "surname": null,
+              "post_nominals": null,
+              "corporate_name": null,
+              "crown_name": null,
+              "known_as": null
+            },
+            "communications": {
+              "postal_address": null,
+              "telephone_number": null,
+              "email": null
+            }
+          },
+          "protodata": [],
+          "metadata": {
+            "sending": {
+              "extracting": {
+                "selecting": {}
+              },
+              "transforming": {
+                "filtering": {},
+                "supplementing": {},
+                "recontextualising": {}
+              },
+              "loading": {
+                "readying": {},
+                "assuring": {},
+                "signing": {},
+                "encrypting": {},
+                "sending": {}
+              }
+            },
+            "receiving": {
+              "unloading": {
+                "receiving": {},
+                "decrypting": {},
+                "verifying": {},
+                "assuring": {},
+                "readying": {}
+              },
+              "transforming": {
+                "recontextualising": {},
+                "dropping": {},
+                "restoring": {}
+              },
+              "storing": {
+                "inserting": {}
+              }
+            }
+          },
+          "compartments": {},
+          "items": [
+            {
+              "id": null,
+              "idx": "1.4.2.1",
+              "name": "Local Taxation Persona",
+              "label": "Authenticated Local Taxation Persona",
+              "description": "A local taxation domain authenticated persona whose type and class are not yet known or re-confirmed, and that is assignable to the person.",
+              "origination": null,
+              "termination": null,
+              "category": {
+                "code": "LTX-DOM-PSA",
+                "meaning": "Local Taxation Domain PERSONA"
+              },
+              "type": {
+                "code": "TXP",
+                "meaning": "The persona of a person that is, or will become, liable to pay an LGFA tax to a collection authority"
+              },
+              "class": {
+                "code": "",
+                "meaning": ""
+              },
+              "data": {
+                "foreign_ids": [],
+                "foreign_names": [],
+                "foreign_labels": [],
+                "names": {
+                  "title_common": "MR",
+                  "title_uncommon": null,
+                  "forenames": null,
+                  "surname": null,
+                  "post_nominals": null,
+                  "corporate_name": null,
+                  "crown_name": null,
+                  "known_as": null
+                },
+                "communications": {
+                  "postal_address": null,
+                  "telephone_number": null,
+                  "email": null
+                },
+                "capacity": {
+                  "code": null,
+                  "meaning": null
+                }
+              },
+              "protodata": [],
+              "metadata": {
+                "sending": {
+                  "extracting": {
+                    "selecting": {}
+                  },
+                  "transforming": {
+                    "filtering": {},
+                    "supplementing": {},
+                    "recontextualising": {}
+                  },
+                  "loading": {
+                    "readying": {},
+                    "assuring": {},
+                    "signing": {},
+                    "encrypting": {},
+                    "sending": {}
+                  }
+                },
+                "receiving": {
+                  "unloading": {
+                    "receiving": {},
+                    "decrypting": {},
+                    "verifying": {},
+                    "assuring": {},
+                    "readying": {}
+                  },
+                  "transforming": {
+                    "recontextualising": {},
+                    "dropping": {},
+                    "restoring": {}
+                  },
+                  "storing": {
+                    "inserting": {}
+                  }
+                }
+              },
+              "compartments": {},
+              "items": []
+            }
+          ]
+        },
+        {
+          "id": null,
+          "idx": "1.4.3",
+          "name": "Property Link",
+          "label": "Ratepayer-ListEntry-Property Link",
+          "description": "A relationships between LGFA88shd9para4J person-personas and LGFA88 hereditaments for which such personas are obliged to provide LGFA88shd9para4I(1) notofiable information.",
+          "origination": null,
+          "termination": null,
+          "category": {
+            "code": "LTX-DOM-REL",
+            "meaning": "Local Taxation Domain RELATIONSHIP"
+          },
+          "type": {
+            "code": "LIB",
+            "meaning": "A record relating to a unit of property that hosts the values required by a collection authority to calculate and determine a persons liability for a local taxation charge"
+          },
+          "class": {
+            "code": "",
+            "meaning": ""
+          },
+          "data": {
+            "foreign_ids": [],
+            "foreign_names": [],
+            "foreign_labels": [],
+            "manifestations": [
+              {
+                "artifact_reference": null,
+                "artifact_code": null,
+                "artifact_description": null,
+                "issued_date": null,
+                "withdrawn_date": null,
+                "effective_from_date": null,
+                "effective_to_date": null,
+                "observed_date": null,
+                "operative_area_code": null,
+                "operative_area_name": null,
+                "protodata_ptr": null,
+                "notes": null
+              }
+            ]
+          },
+          "protodata": [],
+          "metadata": {
+            "sending": {
+              "extracting": {
+                "selecting": {}
+              },
+              "transforming": {
+                "filtering": {},
+                "supplementing": {},
+                "recontextualising": {}
+              },
+              "loading": {
+                "readying": {},
+                "assuring": {},
+                "signing": {},
+                "encrypting": {},
+                "sending": {}
+              }
+            },
+            "receiving": {
+              "unloading": {
+                "receiving": {},
+                "decrypting": {},
+                "verifying": {},
+                "assuring": {},
+                "readying": {}
+              },
+              "transforming": {
+                "recontextualising": {},
+                "dropping": {},
+                "restoring": {}
+              },
+              "storing": {
+                "inserting": {}
+              }
+            }
+          },
+          "compartments": {},
+          "items": [
+            {
+              "transportation": {
+                "path": "/job/compartments/products/@idx=#/items/@idx=#"
+              },
+              "persistence": {
+                "place": "LTX-DOM-PSA",
+                "identifier": null
+              }
+            },
+            {
+              "transportation": {
+                "path": "/job/compartments/products/@idx=#/data/lists/idx=1.4.1.1/items/@idx=#"
+              },
+              "persistence": {
+                "place": "LTX-DOM-LEN",
+                "identifier": null
+              }
+            }
+          ]
+        }
+      ],
+      "relationships": [
+        {
+          "id": null,
+          "idx": "1.5.1",
+          "name": "Property Link",
+          "label": "Ratepayer-ListEntry-Property Link",
+          "description": "A relationships between LGFA88shd9para4J person-personas and LGFA88 hereditaments for which such personas are obliged to provide LGFA88shd9para4I(1) notofiable information.",
+          "origination": null,
+          "termination": null,
+          "category": {
+            "code": "LTX-DOM-REL",
+            "meaning": "Local Taxation Domain RELATIONSHIP"
+          },
+          "type": {
+            "code": "LIB",
+            "meaning": "A record relating to a unit of property that hosts the values required by a collection authority to calculate and determine a persons liability for a local taxation charge"
+          },
+          "class": {
+            "code": "",
+            "meaning": ""
+          },
+          "data": {
+            "foreign_ids": [],
+            "foreign_names": [],
+            "foreign_labels": [],
+            "manifestations": [
+              {
+                "artifact_reference": null,
+                "artifact_code": null,
+                "artifact_description": null,
+                "issued_date": null,
+                "withdrawn_date": null,
+                "effective_from_date": null,
+                "effective_to_date": null,
+                "observed_date": null,
+                "operative_area_code": null,
+                "operative_area_name": null,
+                "protodata_ptr": null,
+                "notes": null
+              }
+            ]
+          },
+          "protodata": [],
+          "metadata": {
+            "sending": {
+              "extracting": {
+                "selecting": {}
+              },
+              "transforming": {
+                "filtering": {},
+                "supplementing": {},
+                "recontextualising": {}
+              },
+              "loading": {
+                "readying": {},
+                "assuring": {},
+                "signing": {},
+                "encrypting": {},
+                "sending": {}
+              }
+            },
+            "receiving": {
+              "unloading": {
+                "receiving": {},
+                "decrypting": {},
+                "verifying": {},
+                "assuring": {},
+                "readying": {}
+              },
+              "transforming": {
+                "recontextualising": {},
+                "dropping": {},
+                "restoring": {}
+              },
+              "storing": {
+                "inserting": {}
+              }
+            }
+          },
+          "compartments": {},
+          "items": [
+            {
+              "transportation": {
+                "path": "/job/compartments/products/@idx=#/items/@idx=#"
+              },
+              "persistence": {
+                "place": "LTX-DOM-PSA",
+                "identifier": null
+              }
+            },
+            {
+              "transportation": {
+                "path": "/job/compartments/products/@idx=#/data/lists/idx=1.4.1.1/items/@idx=#"
+              },
+              "persistence": {
+                "place": "LTX-DOM-LEN",
+                "identifier": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "items": []
   }
+}
 }
