@@ -1,0 +1,61 @@
+{
+  "_id": "/bridge-integration-stub/hip/voa/v1/search?postcode=ST102LP&listType=CVW,CVE&page=1&page_size=20&localAuthorityReferenceNumber=273996000100",
+  "method": "GET",
+  "status": 200,
+  "response": {
+    "results": {
+      "page_size": 20,
+      "current_page": 1,
+      "total_results": 1,
+      "total_pages": 1,
+      "has_next": false,
+      "has_previous": false,
+      "records": [
+        {
+          "list": {
+            "id": {
+              "value": "1234567895657"
+            },
+            "class": {
+              "code": "CVE",
+              "meaning": "Council tax valuation list for a billing authority in England"
+            },
+            "country": {
+              "code": "W92000004",
+              "label": "England"
+            },
+            "collection_authority": {
+              "code": "W07000069",
+              "label": "Staffordshire Moorlands",
+              "pointer": "www.staffsmoorlands.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "114DD4E0-D231-4126-AA03-3795A14330BE"
+            },
+            "property": {
+              "id": {
+                "value": "9ffbc889-0374-3e96-1ef9-5a0b38857bb8"
+              },
+              "address": {
+                "full": "BUTCHERS TENEMENT FARM IPSTONES EDGE, IPSTONES, STOKE-ON-TRENT, ST10 2LP"
+              }
+            },
+            "use": {
+              "description": "Mixed use properties only"
+            },
+            "valuation": {
+              "value": "D"
+            },
+            "period": {
+              "effective_from_date": "19930401T000000Z",
+              "effective_to_date": "NULL"
+            }
+          }
+        }
+      ],
+      "last_updated_at": "20261123T144903Z"
+    }
+  }
+}

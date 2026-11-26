@@ -1,5 +1,5 @@
 {
-  "_id": "/bridge-integration/search?postcode=ST102LP&listType=CVW%2CCVE&page=1&page_size=20&localAuthority=3435",
+  "_id": "/bridge-integration-stub/hip/voa/v1/search?postcode=ST102LP&listType=CVW,CVE&page=1&page_size=20&localAuthority=3435",
   "method": "GET",
   "status": 200,
   "response": {

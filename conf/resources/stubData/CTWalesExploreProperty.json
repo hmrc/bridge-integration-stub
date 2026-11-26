@@ -1,0 +1,343 @@
+{
+  "_id": "/bridge-integration-stub/explore/9ffbc889-0374-3e96-1ef9-5a0b38857bb8?listType=CVW,CVE",
+  "method": "GET",
+  "status": 200,
+  "response": {
+    "results": {
+      "records": [
+        {
+          "data": {
+            "list": {
+              "id": {
+                "value": "1234567895657"
+              },
+              "class": {
+                "code": "CVE",
+                "meaning": "Council tax valuation list for a billing authority in England"
+              },
+              "country": {
+                "code": "W92000004",
+                "label": "England"
+              },
+              "collection_authority": {
+                "code": "W07000069",
+                "label": "Staffordshire Moorlands",
+                "pointer": "www.staffsmoorlands.gov.uk"
+              },
+              "inforcement_period": {
+                "commencement_date": "20050401",
+                "expiration_date": null
+              },
+              "administration": {
+                "compilation_date": "20261111T113824Z",
+                "valuation_date": "20261111T113824Z",
+                "total_of_all_valuations": "1051"
+              }
+            },
+            "list_entry": {
+              "id": {
+                "value": "114DD4E0-D231-4126-AA03-3795A14330BE"
+              },
+              "designated_person": {
+                "name": null,
+                "address": null,
+                "company_number": null
+              },
+              "property": {
+                "id": {
+                  "value": "9ffbc889-0374-3e96-1ef9-5a0b38857bb8"
+                },
+                "collection_authority_ref": "273996000100",
+                "address": {
+                  "full": "BUTCHERS TENEMENT FARM IPSTONES EDGE, IPSTONES, STOKE-ON-TRENT, ST10 2LP",
+                  "first_line": "BUTCHERS TENAMENT",
+                  "postcode": "ST10 2LP",
+                  "known_as": null
+                },
+                "workflow": {
+                  "improvement_ind": "N"
+                }
+              },
+              "use": {
+                "description": "Mixed use properties only",
+                "composite_ind": "C",
+                "part_exempt_ind": "N"
+              },
+              "valuation": {
+                "value": "D",
+                "method": {
+                  "code": "V07000032",
+                  "label": "Test Valuation Method"
+                },
+                "previous": null
+              },
+              "period": {
+                "effective_from_date": "19930401T000000Z",
+                "effective_to_date": "NULL"
+              },
+              "administration": {
+                "alteration_date": "20261120T200759Z",
+                "alteration_seq_no": "1",
+                "entry_seq_no": "1",
+                "judicially_ordered_by": "V",
+                "transitionally_certified": "Not Transitionally"
+              },
+              "workflow": {
+                "creating_job_id": "R5R875-B52D043-F767863-66ZZZ"
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "list": {
+              "id": {
+                "value": "1234567895657"
+              },
+              "class": {
+                "code": "CVE",
+                "meaning": "Council tax valuation list for a billing authority in England"
+              },
+              "country": {
+                "code": "W92000004",
+                "label": "England"
+              },
+              "collection_authority": {
+                "code": "W07000069",
+                "label": "Staffordshire Moorlands",
+                "pointer": "www.staffsmoorlands.gov.uk"
+              },
+              "inforcement_period": {
+                "commencement_date": "20050401",
+                "expiration_date": null
+              },
+              "administration": {
+                "compilation_date": "20261111T113824Z",
+                "valuation_date": "20261111T113824Z",
+                "total_of_all_valuations": "1051"
+              }
+            },
+            "list_entry": {
+              "id": {
+                "value": "69B160B7-42CE-4C7B-B13A-A2FD0C3E1D40"
+              },
+              "designated_person": {
+                "name": null,
+                "address": null,
+                "company_number": null
+              },
+              "property": {
+                "id": {
+                  "value": "9ffbc889-0374-3e96-1ef9-5a0b38857bb8"
+                },
+                "collection_authority_ref": "273996000100",
+                "address": {
+                  "full": "BUTCHERS TENEMENT FARM IPSTONES EDGE, IPSTONES, STOKE-ON-TRENT, ST10 2LP",
+                  "first_line": "BUTCHERS TENAMENT",
+                  "postcode": "ST10 2LP",
+                  "known_as": null
+                },
+                "workflow": {
+                  "improvement_ind": "N"
+                }
+              },
+              "use": {
+                "description": "Mixed use properties only",
+                "composite_ind": "C",
+                "part_exempt_ind": "N"
+              },
+              "valuation": {
+                "value": "D",
+                "method": {
+                  "code": "V07000032",
+                  "label": "Test Valuation Method"
+                },
+                "previous": null
+              },
+              "period": {
+                "effective_from_date": "19930401T000000Z",
+                "effective_to_date": "19950725T000000Z"
+              },
+              "administration": {
+                "alteration_date": "20261120T200759Z",
+                "alteration_seq_no": "1",
+                "entry_seq_no": "1",
+                "judicially_ordered_by": "C",
+                "transitionally_certified": "Transitionally Certified"
+              },
+              "workflow": {
+                "creating_job_id": "R5R875-B52D043-F767863-66ZZZ"
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "list": {
+              "id": {
+                "value": "1234567895657"
+              },
+              "class": {
+                "code": "CVE",
+                "meaning": "Council tax valuation list for a billing authority in England"
+              },
+              "country": {
+                "code": "W92000004",
+                "label": "England"
+              },
+              "collection_authority": {
+                "code": "W07000069",
+                "label": "Staffordshire Moorlands",
+                "pointer": "www.staffsmoorlands.gov.uk"
+              },
+              "inforcement_period": {
+                "commencement_date": "20050401",
+                "expiration_date": null
+              },
+              "administration": {
+                "compilation_date": "20261111T113824Z",
+                "valuation_date": "20261111T113824Z",
+                "total_of_all_valuations": "1051"
+              }
+            },
+            "list_entry": {
+              "id": {
+                "value": "9999FBAD-22D1-4371-8C3C-8EA8AC4EB926"
+              },
+              "designated_person": {
+                "name": null,
+                "address": null,
+                "company_number": null
+              },
+              "property": {
+                "id": {
+                  "value": "9ffbc889-0374-3e96-1ef9-5a0b38857bb8"
+                },
+                "collection_authority_ref": "273996000001",
+                "address": {
+                  "full": "BUTCHERS TENEMENT FARM IPSTONES EDGE, IPSTONES, STOKE-ON-TRENT, ST10 2LP",
+                  "first_line": "BUTCHERS TENAMENT",
+                  "postcode": "ST10 2LP",
+                  "known_as": null
+                },
+                "workflow": {
+                  "improvement_ind": "N"
+                }
+              },
+              "use": {
+                "description": "Domestic Use",
+                "composite_ind": "N",
+                "part_exempt_ind": "N"
+              },
+              "valuation": {
+                "value": "D",
+                "method": {
+                  "code": "V07000032",
+                  "label": "Test Valuation Method"
+                },
+                "previous": null
+              },
+              "period": {
+                "effective_from_date": "19930401T000000Z",
+                "effective_to_date": "19930401T000000Z"
+              },
+              "administration": {
+                "alteration_date": "20261121T150045Z",
+                "alteration_seq_no": "1",
+                "entry_seq_no": "1",
+                "judicially_ordered_by": "V",
+                "transitionally_certified": "Not Transitionally"
+              },
+              "workflow": {
+                "creating_job_id": "R5R875-B52D043-F767863-66ZZZ"
+              }
+            }
+          }
+        },
+        {
+          "data": {
+            "list": {
+              "id": {
+                "value": "1234567895657"
+              },
+              "class": {
+                "code": "CVE",
+                "meaning": "Council tax valuation list for a billing authority in England"
+              },
+              "country": {
+                "code": "W92000004",
+                "label": "England"
+              },
+              "collection_authority": {
+                "code": "W07000069",
+                "label": "Staffordshire Moorlands",
+                "pointer": "www.staffsmoorlands.gov.uk"
+              },
+              "inforcement_period": {
+                "commencement_date": "20050401",
+                "expiration_date": null
+              },
+              "administration": {
+                "compilation_date": "20261111T113824Z",
+                "valuation_date": "20261111T113824Z",
+                "total_of_all_valuations": "1051"
+              }
+            },
+            "list_entry": {
+              "id": {
+                "value": "508EB6D0-6D52-4DF2-B89F-2E394BDCCAB9"
+              },
+              "designated_person": {
+                "name": null,
+                "address": null,
+                "company_number": null
+              },
+              "property": {
+                "id": {
+                  "value": "9ffbc889-0374-3e96-1ef9-5a0b38857bb8"
+                },
+                "collection_authority_ref": "273996000001",
+                "address": {
+                  "full": "BUTCHERS TENEMENT FARM IPSTONES EDGE, IPSTONES, STOKE-ON-TRENT, ST10 2LP",
+                  "first_line": "BUTCHERS TENAMENT",
+                  "postcode": "ST10 2LP",
+                  "known_as": null
+                },
+                "workflow": {
+                  "improvement_ind": "N"
+                }
+              },
+              "use": {
+                "description": "Mixed use properties only",
+                "composite_ind": "C",
+                "part_exempt_ind": "N"
+              },
+              "valuation": {
+                "value": "Deleted",
+                "method": {
+                  "code": "V07000032",
+                  "label": "Test Valuation Method"
+                },
+                "previous": null
+              },
+              "period": {
+                "effective_from_date": "19930401T000000Z",
+                "effective_to_date": "19930401T000000Z"
+              },
+              "administration": {
+                "alteration_date": "20261121T150045Z",
+                "alteration_seq_no": "1",
+                "entry_seq_no": "1",
+                "judicially_ordered_by": "C",
+                "transitionally_certified": "Transitionally Certified"
+              },
+              "workflow": {
+                "creating_job_id": "R5R875-B52D043-F767863-66ZZZ"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

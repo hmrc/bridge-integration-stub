@@ -93,7 +93,7 @@
             },
             "period": {
               "effective_from_date": "19940731T000000Z",
-              "effective_to_date": "NULL"
+              "effective_to_date": null
             }
           }
         },
@@ -485,7 +485,7 @@
           }
         }
       ],
-      "last_updated_at": "20261123T143325Z"
+      "last_updated_at": "20261126T153526Z"
     }
   }
 }
