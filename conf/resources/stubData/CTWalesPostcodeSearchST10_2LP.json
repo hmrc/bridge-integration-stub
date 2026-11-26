@@ -6,11 +6,183 @@
     "results": {
       "page_size": 20,
       "current_page": 1,
-      "total_results": 9,
+      "total_results": 14,
       "total_pages": 1,
       "has_next": false,
       "has_previous": false,
       "records": [
+        {
+          "list": {
+            "id": {
+              "value": "1234567895657"
+            },
+            "class": {
+              "code": "CVE",
+              "meaning": "Council tax valuation list for a billing authority in England"
+            },
+            "country": {
+              "code": "W92000004",
+              "label": "England"
+            },
+            "collection_authority": {
+              "code": "W07000069",
+              "label": "Staffordshire Moorlands",
+              "pointer": "www.staffsmoorlands.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "114DD4E0-D231-4126-AA03-3795A14330BE"
+            },
+            "property": {
+              "id": {
+                "value": "9ffbc889-0374-3e96-1ef9-5a0b38857bb8"
+              },
+              "address": {
+                "full": "BUTCHERS TENAMENT IPSTONES EDGE, IPSTONES, STOKE-ON-TRENT, ST10 2LP"
+              }
+            },
+            "use": {
+              "description": "Mixed use properties only"
+            },
+            "valuation": {
+              "value": "D"
+            },
+            "period": {
+              "effective_from_date": "19930401T000000Z",
+              "effective_to_date": "NULL"
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "1234567895657"
+            },
+            "class": {
+              "code": "CVE",
+              "meaning": "Council tax valuation list for a billing authority in England"
+            },
+            "country": {
+              "code": "W92000004",
+              "label": "England"
+            },
+            "collection_authority": {
+              "code": "W07000069",
+              "label": "Staffordshire Moorlands",
+              "pointer": "www.staffsmoorlands.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "309EA7CE-62BE-4E47-A7CA-D6F25617EA00"
+            },
+            "property": {
+              "id": {
+                "value": "7abe2bd7-0c0c-cc87-23a6-84eabf7350d8"
+              },
+              "address": {
+                "full": "GREENHILLS HOUSE IPSTONES EDGE, IPSTONES, STOKE-ON-TRENT, ST10 2LP"
+              }
+            },
+            "use": {
+              "description": "Domestic Use"
+            },
+            "valuation": {
+              "value": "Deleted"
+            },
+            "period": {
+              "effective_from_date": "19940731T000000Z",
+              "effective_to_date": "NULL"
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "1234567895657"
+            },
+            "class": {
+              "code": "CVE",
+              "meaning": "Council tax valuation list for a billing authority in England"
+            },
+            "country": {
+              "code": "W92000004",
+              "label": "England"
+            },
+            "collection_authority": {
+              "code": "W07000069",
+              "label": "Staffordshire Moorlands",
+              "pointer": "www.staffsmoorlands.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "508EB6D0-6D52-4DF2-B89F-2E394BDCCAB9"
+            },
+            "property": {
+              "id": {
+                "value": "9ffbc889-0374-3e96-1ef9-5a0b38857bb8"
+              },
+              "address": {
+                "full": "BUTCHERS TENAMENT IPSTONES EDGE, IPSTONES, STOKE-ON-TRENT, ST10 2LP"
+              }
+            },
+            "use": {
+              "description": "Mixed use properties only"
+            },
+            "valuation": {
+              "value": "Deleted"
+            },
+            "period": {
+              "effective_from_date": "19930401T000000Z",
+              "effective_to_date": "19930401T000000Z"
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "1234567895657"
+            },
+            "class": {
+              "code": "CVE",
+              "meaning": "Council tax valuation list for a billing authority in England"
+            },
+            "country": {
+              "code": "W92000004",
+              "label": "England"
+            },
+            "collection_authority": {
+              "code": "W07000069",
+              "label": "Staffordshire Moorlands",
+              "pointer": "www.staffsmoorlands.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "B53F7952-12A5-4FD0-BE1E-E51AA9D02C02"
+            },
+            "property": {
+              "id": {
+                "value": "0a8b6b5d-0f45-2303-1156-5895ccb5ca44"
+              },
+              "address": {
+                "full": "CARAVAN AT ROCK HOUSE FARM IPSTONES EDGE, IPSTONES, STOKE-ON-TRENT, ST10 2LP"
+              }
+            },
+            "use": {
+              "description": "Domestic Use"
+            },
+            "valuation": {
+              "value": "Deleted"
+            },
+            "period": {
+              "effective_from_date": "19930401T000000Z",
+              "effective_to_date": "19930401T000000Z"
+            }
+          }
+        },
         {
           "list": {
             "id": {
@@ -333,6 +505,49 @@
           },
           "list_entry": {
             "id": {
+              "value": "CF8B530E-B6E0-4F25-8EFF-BA75AABD51AF"
+            },
+            "property": {
+              "id": {
+                "value": "287d2e05-5d6f-2dc7-3053-4cfb864d74e7"
+              },
+              "address": {
+                "full": "UPPER GREENHILLS FARM IPSTONES EDGE, IPSTONES, STOKE-ON-TRENT, ST10 2LP"
+              }
+            },
+            "use": {
+              "description": "Mixed use property only"
+            },
+            "valuation": {
+              "value": "F"
+            },
+            "period": {
+              "effective_from_date": "19930401T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "1234567895657"
+            },
+            "class": {
+              "code": "CVE",
+              "meaning": "Council tax valuation list for a billing authority in England"
+            },
+            "country": {
+              "code": "W92000004",
+              "label": "England"
+            },
+            "collection_authority": {
+              "code": "W07000069",
+              "label": "Staffordshire Moorlands",
+              "pointer": "www.staffsmoorlands.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
               "value": "2A84CA29-F7C5-45EB-AD2D-637BF6B3E959"
             },
             "property": {
@@ -399,7 +614,7 @@
           }
         }
       ],
-      "last_updated_at": "20261122T221131Z"
+      "last_updated_at": "20261122T212055Z"
     }
   }
 }
