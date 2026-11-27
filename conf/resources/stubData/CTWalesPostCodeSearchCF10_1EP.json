@@ -1,0 +1,878 @@
+{
+  "_id": "/bridge-integration-stub/hip/voa/v1/search?postcode=CF101EP&listType=CVW,CVE&page=1&page_size=20",
+  "method": "GET",
+  "status": 200,
+  "response": {
+    "results": {
+      "page_size": 20,
+      "current_page": 1,
+      "total_results": 50,
+      "total_pages": 3,
+      "has_next": true,
+      "has_previous": false,
+      "records": [
+        {
+          "list": {
+            "id": {
+              "value": "1234567895657"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "44C1315D-4D83-4834-BC0A-9004218ADBB3"
+            },
+            "property": {
+              "id": {
+                "value": "00E68B00-7A40-42FC-9CAF-A89FD574C41E"
+              },
+              "address": {
+                "full": "1, Apartment 125 Block B, Cardiff, CF10 1EP"
+              }
+            },
+            "use": {
+              "description": "Mixed use properties only"
+            },
+            "valuation": {
+              "value": "Deleted"
+            },
+            "period": {
+              "effective_from_date": "20230401T000000Z",
+              "effective_to_date": "NULL"
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "1234567895657"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "629884C8-FED5-476E-B617-68DC4F0F1732"
+            },
+            "property": {
+              "id": {
+                "value": "5FEC7304-87E5-46C6-A87D-6C5A3D7EC3B6"
+              },
+              "address": {
+                "full": "2, Apartment 125 Block B, Cardiff, CF10 1EP"
+              }
+            },
+            "use": {
+              "description": "Mixed use properties only"
+            },
+            "valuation": {
+              "value": "Deleted"
+            },
+            "period": {
+              "effective_from_date": "20230401T000000Z",
+              "effective_to_date": "NULL"
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "1234567895657"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "9FCB3152-0696-4A3C-B75E-096A3A3E50F7"
+            },
+            "property": {
+              "id": {
+                "value": "578BDA92-F899-4241-ACE3-7FB4126B5C4E"
+              },
+              "address": {
+                "full": "3, Apartment 125 Block B, Cardiff, CF10 1EP"
+              }
+            },
+            "use": {
+              "description": "Mixed use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20230401T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "1234567895657"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "016EA614-4CD3-4DB5-8018-6A73200AB957"
+            },
+            "property": {
+              "id": {
+                "value": "F14D2816-8616-4C89-857F-3A17C20DC6BF"
+              },
+              "address": {
+                "full": "4, Apartment 125 Block B, Cardiff, CF10 1EP"
+              }
+            },
+            "use": {
+              "description": "Mixed use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20230401T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "1234567895657"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "36F73246-7E15-402F-80FA-97FEB21F5605"
+            },
+            "property": {
+              "id": {
+                "value": "980E1387-5C75-4925-95B1-BAC2AEAD00D4"
+              },
+              "address": {
+                "full": "5, Apartment 125 Block B, Cardiff, CF10 1EP"
+              }
+            },
+            "use": {
+              "description": "Mixed use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20230401T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "1234567895657"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "FDCD3A29-F7E2-42C2-92AB-9C78AFF19025"
+            },
+            "property": {
+              "id": {
+                "value": "283ACADF-7C4A-4DCB-B868-7B2B2CF7975C"
+              },
+              "address": {
+                "full": "6, Apartment 125 Block B, Cardiff, CF10 1EP"
+              }
+            },
+            "use": {
+              "description": "Mixed use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20230401T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "1234567895657"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "2CF17ECB-32B5-42BE-B435-38D1106AFA19"
+            },
+            "property": {
+              "id": {
+                "value": "3699EFED-C11D-4002-BB3B-4218229BD8D0"
+              },
+              "address": {
+                "full": "7, Apartment 125 Block B, Cardiff, CF10 1EP"
+              }
+            },
+            "use": {
+              "description": "Mixed use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20230401T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "1234567895657"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "710A5525-94B9-4BEA-8A25-45CBAAFED548"
+            },
+            "property": {
+              "id": {
+                "value": "E41DCF56-77A0-4CE2-B199-F52481838DA0"
+              },
+              "address": {
+                "full": "8, Apartment 125 Block B, Cardiff, CF10 1EP"
+              }
+            },
+            "use": {
+              "description": "Mixed use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20230401T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "1234567895657"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "2218B14B-FB13-4E0B-9D62-E9D678FD9146"
+            },
+            "property": {
+              "id": {
+                "value": "1060C90A-76F7-4F3E-AF8E-F90222ADCBA9"
+              },
+              "address": {
+                "full": "9, Apartment 125 Block B, Cardiff, CF10 1EP"
+              }
+            },
+            "use": {
+              "description": "Mixed use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20230401T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "1234567895657"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "9F658321-D521-48A7-842C-F33F239AE1FB"
+            },
+            "property": {
+              "id": {
+                "value": "378BDB1F-C28E-4FC6-B457-C45D23D43146"
+              },
+              "address": {
+                "full": "10, Apartment 125 Block B, Cardiff, CF10 1EP"
+              }
+            },
+            "use": {
+              "description": "Mixed use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20230401T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "1234567895657"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "9C3BD313-64A0-4EAB-B30F-85171ED31CB5"
+            },
+            "property": {
+              "id": {
+                "value": "859062BA-93C8-4112-B84D-B76244948A51"
+              },
+              "address": {
+                "full": "11, Apartment 125 Block B, Cardiff, CF10 1EP"
+              }
+            },
+            "use": {
+              "description": "Mixed use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20230401T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "1234567895657"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "9B06DB23-D090-40A2-9524-1B8BAFAE11E0"
+            },
+            "property": {
+              "id": {
+                "value": "7CB0B474-F212-47E2-B8F4-E12EC79815F6"
+              },
+              "address": {
+                "full": "12, Apartment 125 Block B, Cardiff, CF10 1EP"
+              }
+            },
+            "use": {
+              "description": "Mixed use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20230401T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "1234567895657"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "E6AF901D-B8B1-4DC9-8972-220810AE6B80"
+            },
+            "property": {
+              "id": {
+                "value": "00911EB5-807B-4326-A2FF-66A3E9AB88DE"
+              },
+              "address": {
+                "full": "13, Apartment 125 Block B, Cardiff, CF10 1EP"
+              }
+            },
+            "use": {
+              "description": "Mixed use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20230401T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "1234567895657"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "05744EA2-2188-4DAF-84B4-7DC5AB52B9AB"
+            },
+            "property": {
+              "id": {
+                "value": "E47BE2EE-AE53-400C-96ED-64C107C4B69F"
+              },
+              "address": {
+                "full": "14, Apartment 125 Block B, Cardiff, CF10 1EP"
+              }
+            },
+            "use": {
+              "description": "Mixed use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20230401T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "1234567895657"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "7211183F-0781-4916-9B5F-AB3B755A3A19"
+            },
+            "property": {
+              "id": {
+                "value": "7C918349-C27D-4468-9BA6-AB5B14F83747"
+              },
+              "address": {
+                "full": "15, Apartment 125 Block B, Cardiff, CF10 1EP"
+              }
+            },
+            "use": {
+              "description": "Mixed use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20230401T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "1234567895657"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "5E3B7A58-AB28-45B1-9DAE-1E5A23A5CB38"
+            },
+            "property": {
+              "id": {
+                "value": "BBE7C619-8184-4DEE-BDA2-CD4F30DEB6E9"
+              },
+              "address": {
+                "full": "16, Apartment 125 Block B, Cardiff, CF10 1EP"
+              }
+            },
+            "use": {
+              "description": "Mixed use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20230401T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "1234567895657"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "F39B7203-3BB3-4D10-A772-6B2163C12928"
+            },
+            "property": {
+              "id": {
+                "value": "DD2A95EA-8850-427E-972D-891C47C7DD9C"
+              },
+              "address": {
+                "full": "17, Apartment 125 Block B, Cardiff, CF10 1EP"
+              }
+            },
+            "use": {
+              "description": "Mixed use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20230401T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "1234567895657"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "E9BB096E-72B4-4FEC-8E0A-81EF183B1301"
+            },
+            "property": {
+              "id": {
+                "value": "3CD260F2-CEDC-4609-80D9-6923F301784E"
+              },
+              "address": {
+                "full": "18, Apartment 125 Block B, Cardiff, CF10 1EP"
+              }
+            },
+            "use": {
+              "description": "Mixed use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20230401T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "1234567895657"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "AD77FDA6-CA8C-4741-BDD2-A2D5E512F99F"
+            },
+            "property": {
+              "id": {
+                "value": "CD3DA2B1-CBC6-49B0-9FBE-EECE915F9E5C"
+              },
+              "address": {
+                "full": "19, Apartment 125 Block B, Cardiff, CF10 1EP"
+              }
+            },
+            "use": {
+              "description": "Mixed use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20230401T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "1234567895657"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "BE9BF698-D662-4E47-BFD3-9C4F01499A26"
+            },
+            "property": {
+              "id": {
+                "value": "541147E6-8190-4B6D-A52D-7C082E223D4D"
+              },
+              "address": {
+                "full": "20, Apartment 125 Block B, Cardiff, CF10 1EP"
+              }
+            },
+            "use": {
+              "description": "Mixed use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20230401T000000Z",
+              "effective_to_date": null
+            }
+          }
+        }
+      ],
+      "last_updated_at": "20261123T145302Z"
+    }
+  }
+}

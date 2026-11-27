@@ -1,12 +1,12 @@
 {
-  "_id": "/bridge-integration-stub/hip/voa/v1/search?postcode=ST102LP&listType=CVW,CVE&page=1&page_size=20&councilTaxBand=D",
+  "_id": "/bridge-integration-stub/hip/voa/v1/search?postcode=ST102LP&listType=CVW,CVE&page=1&page_size=20&propertyUse=N",
   "method": "GET",
   "status": 200,
   "response": {
     "results": {
       "page_size": 20,
       "current_page": 1,
-      "total_results": 9,
+      "total_results": 8,
       "total_pages": 1,
       "has_next": false,
       "has_previous": false,
@@ -137,49 +137,6 @@
             "period": {
               "effective_from_date": "19940831T000000Z",
               "effective_to_date": "NULL"
-            }
-          }
-        },
-        {
-          "list": {
-            "id": {
-              "value": "1234567895657"
-            },
-            "class": {
-              "code": "CVE",
-              "meaning": "Council tax valuation list for a billing authority in England"
-            },
-            "country": {
-              "code": "W92000004",
-              "label": "England"
-            },
-            "collection_authority": {
-              "code": "W07000069",
-              "label": "Staffordshire Moorlands",
-              "pointer": "www.staffsmoorlands.gov.uk"
-            }
-          },
-          "list_entry": {
-            "id": {
-              "value": "4214E808-2D10-4BCE-B0BA-F72962335020"
-            },
-            "property": {
-              "id": {
-                "value": "beaf1edb-fdd8-01cc-330b-d0b8f4fc0382"
-              },
-              "address": {
-                "full": "GREENHILLS HOUSE IPSTONES EDGE, IPSTONES, STOKE-ON-TRENT, ST10 2LP"
-              }
-            },
-            "use": {
-              "description": "Domestic Use"
-            },
-            "valuation": {
-              "value": "Deleted"
-            },
-            "period": {
-              "effective_from_date": "19940831T000000Z",
-              "effective_to_date": "19940831T000000Z"
             }
           }
         },
@@ -399,7 +356,7 @@
           }
         }
       ],
-      "last_updated_at": "20261122T221131Z"
+      "last_updated_at": "20261126T153819Z"
     }
   }
 }
