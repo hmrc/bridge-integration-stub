@@ -1,0 +1,878 @@
+{
+  "_id": "/bridge-integration-stub/hip/voa/v1/search?postcode=CF101BN&listType=CVW,CVE&page=1&page_size=20",
+  "method": "GET",
+  "status": 200,
+  "response": {
+    "results": {
+      "page_size": 20,
+      "current_page": 1,
+      "total_results": 21,
+      "total_pages": 2,
+      "has_next": true,
+      "has_previous": false,
+      "records": [
+        {
+          "list": {
+            "id": {
+              "value": "cffd0f05-2d79-ed11-81ad-002248428304"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "9DBBA0E4-01F5-4946-9ECA-22DAE7AA78CB"
+            },
+            "property": {
+              "id": {
+                "value": "9554765a-2689-bed0-1f34-3d9fc0f94aa0"
+              },
+              "address": {
+                "full": "140, THE HAYES APARTMENTS, THE HAYES, CARDIFF, CF10 1BN"
+              }
+            },
+            "use": {
+              "description": "Purely domestic use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20110603T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "cffd0f05-2d79-ed11-81ad-002248428304"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "94137E45-8243-44F4-8002-F240B4DB1B96"
+            },
+            "property": {
+              "id": {
+                "value": "7d7d83e3-6c26-eeff-be8e-70675c1edd51"
+              },
+              "address": {
+                "full": "141, THE HAYES APARTMENTS, THE HAYES, CARDIFF, CF10 1BN"
+              }
+            },
+            "use": {
+              "description": "Purely domestic use properties only"
+            },
+            "valuation": {
+              "value": "F"
+            },
+            "period": {
+              "effective_from_date": "20110325T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "cffd0f05-2d79-ed11-81ad-002248428304"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "01F409A1-8418-4E98-A823-F5969169239A"
+            },
+            "property": {
+              "id": {
+                "value": "f426df3d-aef7-c6c1-3fb9-cfef1fd81eb1"
+              },
+              "address": {
+                "full": "142, THE HAYES APARTMENTS, THE HAYES, CARDIFF, CF10 1BN"
+              }
+            },
+            "use": {
+              "description": "Purely domestic use properties only"
+            },
+            "valuation": {
+              "value": "F"
+            },
+            "period": {
+              "effective_from_date": "20110508T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "cffd0f05-2d79-ed11-81ad-002248428304"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "94816D16-9FCF-4269-8C02-7518183AA389"
+            },
+            "property": {
+              "id": {
+                "value": "40b8a018-c7c5-9834-730a-c9556c6206fe"
+              },
+              "address": {
+                "full": "143, THE HAYES APARTMENTS, THE HAYES, CARDIFF, CF10 1BN"
+              }
+            },
+            "use": {
+              "description": "Purely domestic use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20110601T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "cffd0f05-2d79-ed11-81ad-002248428304"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "4EFABCD3-0168-4583-B64C-AFA46E9AE5BD"
+            },
+            "property": {
+              "id": {
+                "value": "06882391-f2d4-21ec-2049-aefef244a790"
+              },
+              "address": {
+                "full": "144, THE HAYES APARTMENTS, THE HAYES, CARDIFF, CF10 1BN"
+              }
+            },
+            "use": {
+              "description": "Purely domestic use properties only"
+            },
+            "valuation": {
+              "value": "F"
+            },
+            "period": {
+              "effective_from_date": "20110523T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "cffd0f05-2d79-ed11-81ad-002248428304"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "B1FC9C9C-8B28-4305-8313-C139CFC662AF"
+            },
+            "property": {
+              "id": {
+                "value": "98372ffc-6934-817e-f2f0-b8e60b72ef70"
+              },
+              "address": {
+                "full": "145, THE HAYES APARTMENTS, THE HAYES, CARDIFF, CF10 1BN"
+              }
+            },
+            "use": {
+              "description": "Purely domestic use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20110331T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "cffd0f05-2d79-ed11-81ad-002248428304"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "1BB514B9-4889-455C-8DF4-A098A49AC80B"
+            },
+            "property": {
+              "id": {
+                "value": "5354a725-8deb-3517-93e7-93cbe77bddd7"
+              },
+              "address": {
+                "full": "146, THE HAYES APARTMENTS, THE HAYES, CARDIFF, CF10 1BN"
+              }
+            },
+            "use": {
+              "description": "Purely domestic use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20110728T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "cffd0f05-2d79-ed11-81ad-002248428304"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "926797FD-81C8-43EA-9B20-CB5FA0CBCE13"
+            },
+            "property": {
+              "id": {
+                "value": "b5e7eb20-65b9-1101-c31b-fe75fb179340"
+              },
+              "address": {
+                "full": "147, THE HAYES APARTMENTS, THE HAYES, CARDIFF, CF10 1BN"
+              }
+            },
+            "use": {
+              "description": "Purely domestic use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20110305T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "cffd0f05-2d79-ed11-81ad-002248428304"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "0BDEB6B8-7A4B-4233-B349-2DF1170FCE54"
+            },
+            "property": {
+              "id": {
+                "value": "dac22bcc-d300-3e86-6a2f-1aa6ce96f9d4"
+              },
+              "address": {
+                "full": "148, THE HAYES APARTMENTS, THE HAYES, CARDIFF, CF10 1BN"
+              }
+            },
+            "use": {
+              "description": "Purely domestic use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20110325T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "cffd0f05-2d79-ed11-81ad-002248428304"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "03AB58FF-60BA-4F05-9170-B358CCD7A23D"
+            },
+            "property": {
+              "id": {
+                "value": "39c00b35-5fad-6371-3b1b-f81b65d87826"
+              },
+              "address": {
+                "full": "149, THE HAYES APARTMENTS, THE HAYES, CARDIFF, CF10 1BN"
+              }
+            },
+            "use": {
+              "description": "Purely domestic use properties only"
+            },
+            "valuation": {
+              "value": "D"
+            },
+            "period": {
+              "effective_from_date": "20110901T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "cffd0f05-2d79-ed11-81ad-002248428304"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "6D1B17BF-EA48-415B-BEE2-F8600CA619E3"
+            },
+            "property": {
+              "id": {
+                "value": "27b65009-d102-733d-d308-7938ea970465"
+              },
+              "address": {
+                "full": "150, THE HAYES APARTMENTS, THE HAYES, CARDIFF, CF10 1BN"
+              }
+            },
+            "use": {
+              "description": "Purely domestic use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20110901T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "cffd0f05-2d79-ed11-81ad-002248428304"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "C76CE15F-FDA8-437B-AA15-D640D93AE406"
+            },
+            "property": {
+              "id": {
+                "value": "c22023f5-a0cb-408b-de84-e9515c2c52ee"
+              },
+              "address": {
+                "full": "151, THE HAYES APARTMENTS, THE HAYES, CARDIFF, CF10 1BN"
+              }
+            },
+            "use": {
+              "description": "Purely domestic use properties only"
+            },
+            "valuation": {
+              "value": "F"
+            },
+            "period": {
+              "effective_from_date": "20110331T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "cffd0f05-2d79-ed11-81ad-002248428304"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "8D5BF272-E5E0-4DD2-9933-27FA191BD154"
+            },
+            "property": {
+              "id": {
+                "value": "a6adc4e7-c78e-fc55-436e-1d6a89f893c6"
+              },
+              "address": {
+                "full": "152, THE HAYES APARTMENTS, THE HAYES, CARDIFF, CF10 1BN"
+              }
+            },
+            "use": {
+              "description": "Purely domestic use properties only"
+            },
+            "valuation": {
+              "value": "F"
+            },
+            "period": {
+              "effective_from_date": "20110330T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "cffd0f05-2d79-ed11-81ad-002248428304"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "179F8E33-0BDF-4B89-91A7-EC5FCDB3E2D0"
+            },
+            "property": {
+              "id": {
+                "value": "55a25485-25fa-d7e4-2288-25047fab9d76"
+              },
+              "address": {
+                "full": "153, THE HAYES APARTMENTS, THE HAYES, CARDIFF, CF10 1BN"
+              }
+            },
+            "use": {
+              "description": "Purely domestic use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20110404T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "cffd0f05-2d79-ed11-81ad-002248428304"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "CB6E94D9-9192-41B0-8D19-6AFD6F3BA323"
+            },
+            "property": {
+              "id": {
+                "value": "11d08f96-48b9-13f3-8cfe-d0c20bb5ec71"
+              },
+              "address": {
+                "full": "154, THE HAYES APARTMENTS, THE HAYES, CARDIFF, CF10 1BN"
+              }
+            },
+            "use": {
+              "description": "Purely domestic use properties only"
+            },
+            "valuation": {
+              "value": "F"
+            },
+            "period": {
+              "effective_from_date": "20110427T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "cffd0f05-2d79-ed11-81ad-002248428304"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "87871C8E-F289-4E60-9FF3-B2F20DE4421A"
+            },
+            "property": {
+              "id": {
+                "value": "e0f24130-97bd-7287-2a14-ad1e7b201ba8"
+              },
+              "address": {
+                "full": "155, THE HAYES APARTMENTS, THE HAYES, CARDIFF, CF10 1BN"
+              }
+            },
+            "use": {
+              "description": "Purely domestic use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20110408T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "cffd0f05-2d79-ed11-81ad-002248428304"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "D734D9E4-C62E-4E8A-B9E4-21C927933404"
+            },
+            "property": {
+              "id": {
+                "value": "229e3153-6215-5e64-6091-88f2b390f228"
+              },
+              "address": {
+                "full": "162, THE HAYES APARTMENTS, THE HAYES, CARDIFF, CF10 1BN"
+              }
+            },
+            "use": {
+              "description": "Purely domestic use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20110624T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "cffd0f05-2d79-ed11-81ad-002248428304"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "945DEF8D-1FA7-40D8-9CE9-4C363815C384"
+            },
+            "property": {
+              "id": {
+                "value": "6a8a396f-bb4a-d1ff-a67b-f74c6e461f7c"
+              },
+              "address": {
+                "full": "164, THE HAYES APARTMENTS, THE HAYES, CARDIFF, CF10 1BN"
+              }
+            },
+            "use": {
+              "description": "Purely domestic use properties only"
+            },
+            "valuation": {
+              "value": "F"
+            },
+            "period": {
+              "effective_from_date": "20110511T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "cffd0f05-2d79-ed11-81ad-002248428304"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "318BE932-B9C8-41EC-B8C3-0B5F82DCE4B3"
+            },
+            "property": {
+              "id": {
+                "value": "70fc8e1f-8e42-726b-ddef-1ecddc340eba"
+              },
+              "address": {
+                "full": "183, THE HAYES APARTMENTS, THE HAYES, CARDIFF, CF10 1BN"
+              }
+            },
+            "use": {
+              "description": "Purely domestic use properties only"
+            },
+            "valuation": {
+              "value": "E"
+            },
+            "period": {
+              "effective_from_date": "20110630T000000Z",
+              "effective_to_date": null
+            }
+          }
+        },
+        {
+          "list": {
+            "id": {
+              "value": "cffd0f05-2d79-ed11-81ad-002248428304"
+            },
+            "class": {
+              "code": "CVW",
+              "meaning": "Council tax valuation list for a billing authority in Wales"
+            },
+            "country": {
+              "code": "W92000005",
+              "label": "Wales"
+            },
+            "collection_authority": {
+              "code": "W07000066",
+              "label": "Cardiff",
+              "pointer": "www.cardiff.gov.uk"
+            }
+          },
+          "list_entry": {
+            "id": {
+              "value": "C88791C4-B4FA-4D8F-B6DC-53D471FDF26B"
+            },
+            "property": {
+              "id": {
+                "value": "008b63da-78dc-34c2-4bd3-208f8f71d5c7"
+              },
+              "address": {
+                "full": "184, THE HAYES APARTMENTS, THE HAYES, CARDIFF, CF10 1BN"
+              }
+            },
+            "use": {
+              "description": "Purely domestic use properties only"
+            },
+            "valuation": {
+              "value": "Deleted"
+            },
+            "period": {
+              "effective_from_date": "20120509T000000Z",
+              "effective_to_date": null
+            }
+          }
+        }
+      ],
+      "last_updated_at": "20261127T102005Z"
+    }
+  }
+}
